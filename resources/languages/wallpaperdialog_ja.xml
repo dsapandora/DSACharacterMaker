@@ -1,0 +1,25 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+<entry key="title">背景の設定</entry>
+
+<entry key="group.wallpaper">壁紙(タイル)の選択</entry>
+<entry key="group.bgcolor">背景色の選択</entry>
+
+<entry key="label.wallpaperImageAlpha">壁紙画像の不透明率</entry>
+
+<entry key="predefinedWallpaper.lattice_s">市松模様 (小)</entry>
+<entry key="predefinedWallpaper.lattice_l">市松模様 (大)</entry>
+
+<entry key="radio.none">なし</entry>
+<entry key="radio.file">ファイルから選択</entry>
+<entry key="radio.predefined">既定から選択</entry>
+
+<entry key="btn.chooseFile">選択</entry>
+<entry key="btn.ok">OK</entry>
+<entry key="btn.cancel">キャンセル</entry>
+
+<entry key="error.require.imageFile">画像ファイルを指定してください。</entry>
+<entry key="error.require.resource">定義済み壁紙を選択してください。</entry>
+<entry key="error.invalid.imageFile">指定したファイルが存在しないか、読み取りできません。</entry>
+
+</properties>

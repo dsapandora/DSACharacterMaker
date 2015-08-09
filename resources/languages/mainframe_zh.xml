@@ -1,0 +1,18 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="title">DSA Character Maker - </entry>
+	<entry key="defaultPartsSetTitle">无标题</entry>
+	<entry key="help.url">http://charactermanaj.sourceforge.jp/help/0.9/</entry>
+	<entry key="help.show">帮助文档(日)</entry>
+	<entry key="confirm">确认</entry>
+	<entry key="confirm.resetcolors">你确定么?</entry>
+	<entry key="chooseBgColor">选择背景色</entry>
+	<entry key="input.favorites">预设</entry>
+	<entry key="input.favoritesColorInfo">包括颜色设定</entry>
+	<entry key="input.favoritesOverwrite">覆盖</entry>
+
+	<entry key="help.reportbugs.description">问题反馈(日)</entry>
+	<entry key="help.reportbugs.url">http://sourceforge.jp/projects/charactermanaj/ticket/</entry>
+	<entry key="help.forum.description">论坛(日)</entry>
+	<entry key="help.forum.url">http://sourceforge.jp/projects/charactermanaj/forums/</entry>
+</properties>

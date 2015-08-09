@@ -1,0 +1,5 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="dblclick.fit">Double-click to fit.</entry>
+	<entry key="dblclick.fullsize">Double-click to view the image full size.</entry>
+</properties>

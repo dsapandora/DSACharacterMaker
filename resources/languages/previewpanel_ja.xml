@@ -1,0 +1,18 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="indicatorText"> Loading...</entry>
+	<entry key="tooltip.save"><![CDATA[<html>画像をファイルに保存する<br><small>(シフトキーで「伺か」用出力)</small></html>]]></entry>
+	<entry key="tooltip.copy"><![CDATA[<html>画像をクリップボードにコピーする<br><small>(シフトキーでスクリーンイメージ取得)<small></html>]]></entry>
+	<entry key="tooltip.changeBgColor"><![CDATA[<html>背景を設定する<br><small>(シフトキーで背景色のみ変更)</small></html>]]></entry>
+	<entry key="tooltip.showInformation">情報を表示する</entry>
+	<entry key="tooltip.registerFavorites"><![CDATA[<html>お気に入りに追加する<br><small>(シフトキーで「お気に入りの管理」)</small></html>]]></entry>
+	<entry key="tooltip.flipHorizontal">画像を左右反転する</entry>
+
+	<entry key="tooltip.zoompanel.pinning">固定する</entry>
+	<entry key="tooltip.zoompanel.checkalpha">透過確認</entry>
+	<entry key="tooltip.zoompanel.checkgrayscale">輝度確認</entry>
+	<entry key="tooltip.zoompanel.zoomfactor_slider">表示倍率</entry>
+	<entry key="tooltip.zoompanel.zoomfactor_combo">表示倍率</entry>
+
+	<entry key="uiconstraint.scrollbar.width">30</entry>
+</properties>

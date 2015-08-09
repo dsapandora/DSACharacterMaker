@@ -1,0 +1,24 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="title">情報</entry>
+	<entry key="btnClose">閉じる</entry>
+	<entry key="column.partsName">パーツ名</entry>
+	<entry key="column.categoryName">カテゴリ名</entry>
+	<entry key="column.layerName">レイヤー</entry>
+	<entry key="column.layerOrder">順序</entry>
+	<entry key="column.imagesize">サイズ</entry>
+	<entry key="column.colortype">カラーモード</entry>
+	<entry key="column.imageName">画像ファイル</entry>
+	<entry key="column.editbtn">アクション</entry>
+	<entry key="column.partsName.width">80</entry>
+	<entry key="column.categoryName.width">80</entry>
+	<entry key="column.layerName.width">80</entry>
+	<entry key="column.layerOrder.width">50</entry>
+	<entry key="column.layerOrder.imagesize.width">50</entry>
+	<entry key="column.layerOrder.colortype.width">50</entry>
+	<entry key="column.imageName.width">150</entry>
+	<entry key="column.editbtn.width">80</entry>
+	<entry key="popupmenu.copyPath">ファイルパスをクリップボードにコピー</entry>
+	<entry key="btn.edit.edit">編集</entry>
+	<entry key="btn.edit.open">開く</entry>
+</properties>

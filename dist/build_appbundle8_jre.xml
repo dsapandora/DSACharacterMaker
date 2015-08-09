@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="CharacterManaJ_Java7Mac" default="app-bundle">
+<description>CharacterManaJ(For Java7 On OSX)</description>
+
+	<!-- Import environment variables -->
+	<property environment="env"/>
+	<property name="env.TARGETDIR" value="withJRE"/>
+
+	<taskdef name="bundleapp"
+		classname="com.oracle.appbundler.AppBundlerTask"
+		classpath="../extlib/appbundler-1.0.jar" />
+
+<!--
+ Java7 for OSX用のアプリケーションバンドルを作成するためのタスクを実行する.
+ http://docs.oracle.com/javase/7/docs/technotes/guides/jweb/packagingAppsForMac.html
+ ただし、これを実施したあとにinfo.plistの修正やリソースの追加が必要である。
+-->
+<target name="app-bundle">
+	<echo message="JAVA_HOME=${env.JAVA_HOME}"/>
+	<echo message="TARGETDIR=${env.TARGETDIR}"/>
+	<mkdir dir="${env.TARGETDIR}"/>
+	<bundleapp outputdirectory="${env.TARGETDIR}"
+		name="CharacterManaJ"
+		displayname="キャラクターなんとかJ"
+		shortversion="1.0"
+		icon="../icon.icns"
+		identifier="charactermanaj.Main"
+		mainclassname="charactermanaj.Main">
+		<runtime dir="${env.JAVA_HOME}"/>
+		<classpath file="../CharacterManaJ.jar" />
+	</bundleapp>
+</target>
+
+</project>

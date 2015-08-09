@@ -1,0 +1,16 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+<entry key="width">550</entry>
+<entry key="title">CharacterManaJ</entry>
+<entry key="caption">选择工作路径</entry>
+<entry key="lbl.dir">工作路径:</entry>
+<entry key="btn.ok">确认</entry>
+<entry key="btn.cancel">取消</entry>
+<entry key="btn.chooseDir">浏览</entry>
+<entry key="btn.clearRecentList">删除最近的列表</entry>
+<entry key="btn.clearWorkingSets">删除缓存</entry>
+<entry key="chk.doNotAskAgein">将当前设置为默认并不再询问</entry>
+<entry key="confirm.clearWorkingSets">你确定要删除所有缓存么?</entry>
+<entry key="confirm.clearWorkingSets.title">确认</entry>
+</properties>
+

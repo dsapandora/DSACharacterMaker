@@ -1,0 +1,171 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="menu.file.text">ファイル</entry>
+	<entry key="menu.file.mnemonic">F</entry>
+	<entry key="menu.file.mnemonicDisp">(F)</entry>
+
+	<entry key="menu.edit.text">編集</entry>
+	<entry key="menu.edit.mnemonic">E</entry>
+	<entry key="menu.edit.mnemonicDisp">(E)</entry>
+
+	<entry key="menu.favorite.text">お気に入り</entry>
+	<entry key="menu.favorite.mnemonic">A</entry>
+	<entry key="menu.favorite.mnemonicDisp">(A)</entry>
+
+	<entry key="menu.tool.text">ツール</entry>
+	<entry key="menu.tool.mnemonic">T</entry>
+	<entry key="menu.tool.mnemonicDisp">(T)</entry>
+	<entry key="menu.tool.ignoreMacOSX">false</entry>
+
+	<entry key="menu.help.text">ヘルプ</entry>
+	<entry key="menu.help.mnemonic">H</entry>
+	<entry key="menu.help.mnemonicDisp">(H)</entry>
+
+
+	<entry key="file.openProfile.text">プロファイルを開く</entry>
+	<entry key="file.openProfile.mnemonic">O</entry>
+	<entry key="file.openProfile.mnemonicDisp">(O)</entry>
+
+	<entry key="file.savePicture.text">画像を保存する</entry>
+	<entry key="file.savePicture.mnemonic">S</entry>
+	<entry key="file.savePicture.mnemonicDisp">(S)</entry>
+
+	<entry key="file.ukagaka.text">伺か用に保存する</entry>
+	<entry key="file.ukagaka.mnemonic">U</entry>
+	<entry key="file.ukagaka.mnemonicDisp">(U)</entry>
+	<entry key="file.ukagaka.ignoreMacOSX">false</entry>
+
+	<entry key="file.saveAsUkagaka.text">伺か用PNG/PNAの保存</entry>
+	<entry key="file.saveAsUkagaka.mnemonic">S</entry>
+	<entry key="file.saveAsUkagaka.mnemonicDisp">(S)</entry>
+	<entry key="file.saveAsUkagaka.ignoreMacOSX">false</entry>
+
+	<entry key="file.convertUkagaka.text">32ビット透過PNGを伺か用PNG/PNAに変換する</entry>
+	<entry key="file.convertUkagaka.mnemonic">C</entry>
+	<entry key="file.convertUkagaka.mnemonicDisp">(C)</entry>
+	<entry key="file.convertUkagaka.ignoreMacOSX">false</entry>
+
+	<entry key="file.opendir.text">パーツフォルダを開く</entry>
+	<entry key="file.opendir.mnemonic">D</entry>
+	<entry key="file.opendir.mnemonicDisp">(D)</entry>
+	<entry key="file.opendir.ignoreMacOSX">false</entry>
+	<entry key="file.opendir.shortcut-key">? D</entry>
+
+	<entry key="file.editprofile.text">このプロファイルを編集する</entry>
+	<entry key="file.editprofile.mnemonic">E</entry>
+	<entry key="file.editprofile.mnemonicDisp">(E)</entry>
+	<entry key="file.editprofile.ignoreMacOSX">false</entry>
+
+	<entry key="file.manageParts.text">パーツの管理</entry>
+	<entry key="file.manageParts.mnemonic">M</entry>
+	<entry key="file.manageParts.mnemonicDisp">(M)</entry>
+
+	<entry key="file.import.text">インポート</entry>
+	<entry key="file.import.mnemonic">I</entry>
+	<entry key="file.import.mnemonicDisp">(I)</entry>
+
+	<entry key="file.importMe.text">このプロファイルにインポートする</entry>
+	<entry key="file.importMe.mnemonic">I</entry>
+	<entry key="file.importMe.mnemonicDisp">(I)</entry>
+
+	<entry key="file.importNew.text">新規プロファイルを作成する</entry>
+	<entry key="file.importNew.mnemonic">N</entry>
+	<entry key="file.importNew.mnemonicDisp">(N)</entry>
+
+	<entry key="file.export.text">エクスポート</entry>
+	<entry key="file.export.mnemonic">E</entry>
+	<entry key="file.export.mnemonicDisp">(E)</entry>
+
+	<entry key="file.preferences.text">設定</entry>
+	<entry key="file.preferences.mnemonic">C</entry>
+	<entry key="file.preferences.mnemonicDisp">(C)</entry>
+
+	<entry key="file.closeProfile.text">プロファイルを閉じる</entry>
+	<entry key="file.closeProfile.mnemonic">X</entry>
+	<entry key="file.closeProfile.mnemonicDisp">(X)</entry>
+
+
+	<entry key="edit.search.text">パーツの検索</entry>
+	<entry key="edit.search.mnemonic">F</entry>
+	<entry key="edit.search.mnemonicDisp">(F)</entry>
+
+	<entry key="edit.copy.text">画像をクリップボードにコピーする</entry>
+	<entry key="edit.copy.mnemonic">C</entry>
+	<entry key="edit.copy.mnemonicDisp">(C)</entry>
+	
+	<entry key="edit.flipHorizontal.text">画像を左右反転する</entry>
+	<entry key="edit.flipHorizontal.mnemonic">H</entry>
+	<entry key="edit.flipHorizontal.mnemonicDisp">(H)</entry>
+
+	<entry key="edit.resetcolor.text">色情報のリセット</entry>
+	<entry key="edit.resetcolor.mnemonic">R</entry>
+	<entry key="edit.resetcolor.mnemonicDisp">(R)</entry>
+	<entry key="edit.resetcolor.ignoreMacOSX">false</entry>
+
+	<entry key="edit.setDefaultPicture.text">サンプルピクチャに設定する</entry>
+	<entry key="edit.setDefaultPicture.mnemonic">P</entry>
+	<entry key="edit.setDefaultPicture.mnemonicDisp">(P)</entry>
+	<entry key="edit.setDefaultPicture.ignoreMacOSX">false</entry>
+
+	<entry key="edit.information.text">情報</entry>
+	<entry key="edit.information.mnemonic">I</entry>
+	<entry key="edit.information.mnemonicDisp">(I)</entry>
+	
+	<entry key="edit.deselectall.text">パーツの選択を解除する</entry>
+	<entry key="edit.deselectparts.text">単一選択カテゴリのパーツを解除可能にする</entry>
+
+	<entry key="edit.enableAutoShrink.text">カテゴリパネルを切替え時に縮小する</entry>
+	<entry key="edit.enableAutoShrink.ignoreMacOSX">false</entry>
+
+	<entry key="edit.enableZoomBox.text">ズーム</entry>
+	<entry key="edit.enableZoomBox.mnemonic">Z</entry>
+	<entry key="edit.enableZoomBox.mnemonicDisp">(Z)</entry>
+	<entry key="edit.enableZoomBox.ignoreMacOSX">false</entry>
+
+	<entry key="edit.changeBgColor.text">背景色の変更</entry>
+	<entry key="edit.changeBgColor.mnemonic">B</entry>
+	<entry key="edit.changeBgColor.mnemonicDisp">(B)</entry>
+	<entry key="edit.changeBgColor.ignoreMacOSX">false</entry>
+
+	<entry key="edit.changeWallpaper.text">背景の設定</entry>
+	<entry key="edit.changeWallpaper.mnemonic">W</entry>
+	<entry key="edit.changeWallpaper.mnemonicDisp">(W)</entry>
+	<entry key="edit.changeWallpaper.ignoreMacOSX">false</entry>
+
+
+	<entry key="favorite.register.text">お気に入りに追加</entry>
+	<entry key="favorite.register.mnemonic">A</entry>
+	<entry key="favorite.register.mnemonicDisp">(A)</entry>
+
+	<entry key="favorite.manage.text">お気に入りの管理</entry>
+	<entry key="favorite.manage.mnemonic">M</entry>
+	<entry key="favorite.manage.mnemonicDisp">(M)</entry>
+
+
+	<entry key="tool.random.text">ランダム</entry>
+	<entry key="tool.random.mnemonic">R</entry>
+	<entry key="tool.random.mnemonicDisp">(R)</entry>
+	<entry key="tool.random.ignoreMacOSX">false</entry>
+
+
+	<entry key="help.help.text">ヘルプ</entry>
+	<entry key="help.help.mnemonic">H</entry>
+	<entry key="help.help.mnemonicDisp">(H)</entry>
+	
+	<entry key="help.bugreport.text">バグレポート</entry>
+	<entry key="help.bugreport.mnemonic">R</entry>
+	<entry key="help.bugreport.mnemonicDisp">(R)</entry>
+
+	<entry key="help.forum.text">フォーラム</entry>
+	<entry key="help.forum.mnemonic">F</entry>
+	<entry key="help.forum.mnemonicDisp">(F)</entry>
+
+	<entry key="help.about.text">CharacterManaJについて</entry>
+	<entry key="help.about.mnemonic">A</entry>
+	<entry key="help.about.mnemonicDisp">(A)</entry>
+
+	<entry key="help.recommendations.text">お勧めサイト</entry>
+	<entry key="help.recommendations.mnemonic"></entry>
+	<entry key="help.recommendations.mnemonicDisp"></entry>
+
+</properties>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="makeDistributionArchive" default="makeSmallZip">
+	<description>CharacterManaJ</description>
+
+	<!-- ビルド日時とバージョン、ベンダー -->
+	<property file="../resources/version.properties"/>
+	<tstamp prefix="build-info">
+		<format property="current-date" pattern="yyyy-MM-dd" locale="en" />
+		<format property="current-time" pattern="hh:mm:ss a z" locale="en" />
+	</tstamp>
+
+	<!-- 出力するファイル名 -->
+	<property name="appName" value="CharacterManaJ_${implements_version}"/>
+
+	<!-- jreを含まない配布物を作成する -->
+	<target name="makeSmallZip" description="JREを含まないシンプルなWindows用のZIPを作成する">
+		<delete file="${appName}.zip"/>
+		<zip destfile="${appName}.zip" level="9">
+			<fileset dir=".">
+				<include name="README_ja.txt"/>
+				<include name="appConfig.xml"/>
+				<include name="charactermanaj.exe"/>
+				<include name="charactermanaj.l4j.ini"/>
+			</fileset>
+		</zip>
+	</target>
+
+	<!-- jreを含む配布物を作成する -->
+	<target name="makeWithJREZip" description="JREを含むWindows用のZIPを作成する">
+		<delete file="${appName}_with_JRE8.zip"/>
+		<zip destfile="${appName}_with_JRE8.zip" level="9">
+			<fileset dir=".">
+				<include name="README_ja_withJRE.txt"/>
+				<include name="appConfig.xml"/>
+				<include name="charactermanaj.exe"/>
+				<include name="charactermanaj.l4j.ini"/>
+				<include name="jre/**"/>
+			</fileset>
+		</zip>
+	</target>
+
+</project>

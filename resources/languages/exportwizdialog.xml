@@ -1,0 +1,67 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="author">Author</entry>
+	<entry key="description">Description</entry>
+	<entry key="characterdef">Character definition</entry>
+	<entry key="exportSubset">Export a subset</entry>
+
+	<entry key="title">Export</entry>
+	<entry key="complete">Complete</entry>
+
+	<entry key="confirm">Confirm</entry>
+	<entry key="confirm.close">Are you sure you want to cancel?</entry>
+	<entry key="confirm.overwrite">File already exists. Are you sure you want to overwrite?</entry>
+	<entry key="requiredExists">File not exists.</entry>
+
+	<entry key="btn.next">Next</entry>
+	<entry key="btn.prev">Previous</entry>
+	<entry key="btn.finish">Finish</entry>
+	<entry key="btn.cancel">Cancel</entry>
+	
+	<entry key="basic.contentsSpec">Include contents</entry>
+	<entry key="basic.comment">Comments</entry>
+	<entry key="basic.sampleImage">Sample picture</entry>
+	<entry key="basic.chk.partsImages">Parts</entry>
+	<entry key="basic.chk.presets">Preset/Favorites</entry>
+	<entry key="basic.chk.samplePicture">Sample picture</entry>
+	
+	<entry key="parts.title">Parts List</entry>
+	<entry key="parts.column.selected">Selected</entry>
+	<entry key="parts.column.category">Category</entry>
+	<entry key="parts.column.name">Parts name</entry>
+	<entry key="parts.column.timestamp">Last-Modified</entry>
+	<entry key="parts.column.author">Author</entry>
+	<entry key="parts.column.version">Version</entry>
+
+	<entry key="parts.column.selected.width">50</entry>
+	<entry key="parts.column.category.width">100</entry>
+	<entry key="parts.column.name.width">150</entry>
+	<entry key="parts.column.timestamp.width">100</entry>
+	<entry key="parts.column.author.width">80</entry>
+	<entry key="parts.column.version.width">50</entry>
+
+	<entry key="parts.btn.selectAll">Select All</entry>
+	<entry key="parts.btn.deselectAll">Deselect All</entry>
+	<entry key="parts.btn.sort">Sort</entry>
+	<entry key="parts.btn.sortByTimestamp">Sort By Timestamp</entry>
+
+	<entry key="parts.popup.check">Check</entry>
+	<entry key="parts.popup.uncheck">Uncheck</entry>
+
+	<entry key="preset.title">Preset/Favorite List</entry>
+	<entry key="preset.column.selected">Selected</entry>
+	<entry key="preset.column.name">Name</entry>
+	<entry key="preset.column.default">Default</entry>
+	<entry key="preset.column.missingparts">Missing parts</entry>
+	<entry key="preset.column.selected.width">50</entry>
+	<entry key="preset.column.default.width">50</entry>
+	<entry key="preset.column.name.width">150</entry>
+	<entry key="preset.column.missingparts.width">300</entry>
+
+	<entry key="preset.btn.selectAll">Select All</entry>
+	<entry key="preset.btn.deselectAll">Deselect All</entry>
+	<entry key="preset.btn.sort">Sort</entry>
+	<entry key="preset.popup.selectUsedParts">Export used parts</entry>
+	
+</properties>
+

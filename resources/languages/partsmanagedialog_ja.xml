@@ -1,0 +1,36 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="title">パーツの管理</entry>
+	<entry key="partslist">パーツリスト</entry>
+	<entry key="sortByName">名前順に整列</entry>
+	<entry key="sortByAuthor">作者順に整列</entry>
+	<entry key="sortByTimestamp">更新日順に整列</entry>
+	<entry key="applyAllLastModified">最新にする</entry>
+	<entry key="applyAllDownloadURL">ダウンロードURLを一括指定</entry>
+	<entry key="applyAllVersion">バージョンを一括指定</entry>
+	<entry key="author.info">作者情報</entry>
+	<entry key="author">作者名:</entry>
+	<entry key="homepage">ホームページ:</entry>
+	<entry key="open">開く</entry>
+	<entry key="cancel">キャンセル</entry>
+	<entry key="update">更新</entry>
+	<entry key="confirm.authorConflict">複数の作者が選択されていますが、一括適用を行いますか?</entry>
+	<entry key="confirm">確認</entry>
+	<entry key="input.downloadURL">ダウンロードURLの入力</entry>
+	<entry key="input.version">バージョン番号の入力</entry>
+	<entry key="confirm.cancel">編集を破棄してもよろしいですか?</entry>
+	<entry key="column.partsid">パーツID</entry>
+	<entry key="column.lastmodified">更新日</entry>
+	<entry key="column.category">カテゴリ</entry>
+	<entry key="column.partsname">パーツ名</entry>
+	<entry key="column.author">作者</entry>
+	<entry key="column.version">バージョン</entry>
+	<entry key="column.downloadURL">ダウンロードURL</entry>
+	<entry key="column.partsid.width">100</entry>
+	<entry key="column.lastmodified.width">80</entry>
+	<entry key="column.category.width">80</entry>
+	<entry key="column.partsname.width">100</entry>
+	<entry key="column.author.width">80</entry>
+	<entry key="column.version.width">50</entry>
+	<entry key="column.downloadURL.width">150</entry>
+</properties>

@@ -1,0 +1,67 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="author">作者</entry>
+	<entry key="description">描述</entry>
+	<entry key="characterdef">人物设定</entry>
+	<entry key="exportSubset">导出部分(使用不同设置)</entry>
+
+	<entry key="title">导出</entry>
+	<entry key="complete">完成</entry>
+
+	<entry key="confirm">确认</entry>
+	<entry key="confirm.close">你确定要取消么?</entry>
+	<entry key="confirm.overwrite">文件已存在，是否覆盖文件?</entry>
+	<entry key="requiredExists">文件不存在。</entry>
+
+	<entry key="btn.next">下一步</entry>
+	<entry key="btn.prev">上一步</entry>
+	<entry key="btn.finish">完成</entry>
+	<entry key="btn.cancel">取消</entry>
+	
+	<entry key="basic.contentsSpec">导出内容</entry>
+	<entry key="basic.comment">描述</entry>
+	<entry key="basic.sampleImage">例图</entry>
+	<entry key="basic.chk.partsImages">部件</entry>
+	<entry key="basic.chk.presets">默认/预设</entry>
+	<entry key="basic.chk.samplePicture">例图</entry>
+	
+	<entry key="parts.title">部件列表</entry>
+	<entry key="parts.column.selected">选择</entry>
+	<entry key="parts.column.category">分类</entry>
+	<entry key="parts.column.name">名称</entry>
+	<entry key="parts.column.timestamp">最后更新</entry>
+	<entry key="parts.column.author">作者</entry>
+	<entry key="parts.column.version">版本</entry>
+
+	<entry key="parts.column.selected.width">50</entry>
+	<entry key="parts.column.category.width">100</entry>
+	<entry key="parts.column.name.width">150</entry>
+	<entry key="parts.column.timestamp.width">100</entry>
+	<entry key="parts.column.author.width">80</entry>
+	<entry key="parts.column.version.width">50</entry>
+
+	<entry key="parts.btn.selectAll">全部选择</entry>
+	<entry key="parts.btn.deselectAll">全部取消</entry>
+	<entry key="parts.btn.sort">按名称排序</entry>
+	<entry key="parts.btn.sortByTimestamp">按更新时间排序</entry>
+
+	<entry key="parts.popup.check">选择</entry>
+	<entry key="parts.popup.uncheck">取消</entry>
+
+	<entry key="preset.title">默认/预设列表</entry>
+	<entry key="preset.column.selected">选择</entry>
+	<entry key="preset.column.name">名称</entry>
+	<entry key="preset.column.default">默认</entry>
+	<entry key="preset.column.missingparts">缺失的部件</entry>
+	<entry key="preset.column.selected.width">50</entry>
+	<entry key="preset.column.default.width">50</entry>
+	<entry key="preset.column.name.width">150</entry>
+	<entry key="preset.column.missingparts.width">300</entry>
+
+	<entry key="preset.btn.selectAll">全部选择</entry>
+	<entry key="preset.btn.deselectAll">全部取消</entry>
+	<entry key="preset.btn.sort">按名称排序</entry>
+	<entry key="preset.popup.selectUsedParts">导出使用的部件</entry>
+	
+</properties>
+

@@ -1,0 +1,24 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="title">Information</entry>
+	<entry key="btnClose">Close</entry>
+	<entry key="column.partsName">Parts</entry>
+	<entry key="column.categoryName">Category</entry>
+	<entry key="column.layerName">Layer</entry>
+	<entry key="column.layerOrder">Order</entry>
+	<entry key="column.imagesize">Size</entry>
+	<entry key="column.colortype">Color Mode</entry>
+	<entry key="column.imageName">Image</entry>
+	<entry key="column.editbtn">Action</entry>
+	<entry key="column.partsName.width">80</entry>
+	<entry key="column.categoryName.width">80</entry>
+	<entry key="column.layerName.width">80</entry>
+	<entry key="column.layerOrder.width">50</entry>
+	<entry key="column.layerOrder.imagesize.width">50</entry>
+	<entry key="column.layerOrder.colortype.width">50</entry>
+	<entry key="column.imageName.width">150</entry>
+	<entry key="column.editbtn.width">80</entry>
+	<entry key="popupmenu.copyPath">Copy the file path</entry>
+	<entry key="btn.edit.edit">Edit</entry>
+	<entry key="btn.edit.open">Open</entry>
+</properties>

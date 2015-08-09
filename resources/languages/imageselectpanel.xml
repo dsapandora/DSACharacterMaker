@@ -1,0 +1,10 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="tooltip.shrink">Shrink</entry>
+	<entry key="tooltip.expand">Expand</entry>
+	<entry key="tooltip.color">Open the color dialog</entry>
+	<entry key="tooltip.up">Up</entry>
+	<entry key="tooltip.down">Down</entry>
+	<entry key="tooltip.sort">Sort</entry>
+	<entry key="popupmenu.deselectall">Deselect all</entry>
+</properties>

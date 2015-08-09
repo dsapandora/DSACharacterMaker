@@ -1,0 +1,78 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>appConfig.xml</comment>
+<!--  だれか翻訳助けて Could someone please translate this.-->
+
+<entry key="title">程序设置</entry>
+<entry key="btn.apply">应用</entry>
+<entry key="btn.cancel">取消</entry>
+<entry key="chk.askForCharactersDir">启动时询问工作路径</entry>
+<entry key="column.key">键</entry>
+<entry key="column.value">值</entry>
+<entry key="column.key.width">200</entry>
+<entry key="column.value.width">100</entry>
+<entry key="confirm.close.caption">确认</entry>
+<entry key="confirm.close">你确定要关闭么?</entry>
+<entry key="error.caption">错误</entry>
+<entry key="error.message">请填充未填项</entry>
+<entry key="caution">应用新设置需要重新启动程序</entry>
+<entry key="table.caption">Settings</entry>
+
+<entry key="btn.setupLocalization">自定义语言</entry>
+<entry key="setupLocalization"><![CDATA[解压语言文件
+如果文件已存在则会被覆盖]]></entry>
+<entry key="confirm.setupLocalization.caption">确认</entry>
+
+<entry key="compressionQuality">01;JPEG压缩质量(1最好,0.1最差)</entry>
+<entry key="enablePNGSupportForWindows">02;复制到剪贴板时使用透明图像(Windows/OSX)</entry>
+<entry key="zipNameEncoding">03;ZIP解码(默认为csWindows31J)</entry>
+<entry key="partsColorGroupPattern">04;以部件名称判定图案的颜色组(使用正则表达式)('@'后面为色组名)</entry>
+<entry key="enableAutoShrinkPanel">05;自动缩放项目栏</entry>
+
+<entry key="mainFrameMaxWidth">10;预览图最大宽度</entry>
+<entry key="mainFrameMaxHeight">11;预览图最大高度</entry>
+<entry key="enableRenderingHints">12;使用提示渲染</entry>
+<entry key="enableInterpolationBicubic">13;使用二次立方</entry>
+<entry key="renderingOptimizeThresholdForNormal">14;最佳渲染时缩放倍率的阈值(通常模式)(0为不缩放)</entry>
+<entry key="renderingOptimizeThresholdForCheck">15;最佳渲染时缩放倍率的阈值(检查模式)(0为不缩放)</entry>
+<entry key="predefinedZoomRanges">16;预定义缩放</entry>
+<entry key="enableZoomPanel">17;显示缩放栏</entry>
+<entry key="zoomPanelActivationArea">18;缩放栏位置</entry>
+<entry key="wheelScrollUnit">19;滚轮调整单元</entry>
+<entry key="enableOffscreenWallpaper">1A;背景全屏显示</entry>
+<entry key="offscreenWallpaperSize">1B;默认全屏大小</entry>
+
+<entry key="enableAutoColorChange">20;自动刷新颜色</entry>
+<entry key="notDisableLayerTab">21;在颜色菜单显示不存在的图层</entry>
+
+<entry key="enableDirWatch">31;开启文件夹监视</entry>
+<entry key="disableWatchDirIfNotWritable">32;文件只读时关闭文件夹监视</entry>
+<entry key="dirWatchInterval">33;监视间隔时间(ms)</entry>
+<entry key="noRemoveLog">34;退出时不清除log</entry>
+<entry key="purgeLogDays">35;启动时清除多少天以上的log(0表示不清除)</entry>
+<entry key="informationDialogOpenMethod">36;信息栏动作(true为打开;false为编辑)</entry>
+
+<entry key="selectedItemBgColor">50;选择时的背景色</entry>
+<entry key="exportPresetWarningsForegroundColor">51;警告时的背景色</entry>
+<entry key="checkedItemBgColor">52;已检查项目的背景色</entry>
+<entry key="sampleImageBgColor">53;例图的背景色</entry>
+<entry key="defaultImageBgColor">54;预览的背景色</entry>
+<entry key="invalidBgColor">55;Invalid Cell的背景色</entry>
+<entry key="gridColor">56;网格颜色</entry>
+<entry key="authorEditConflictBgColor">57;作者冲突的背景色</entry>
+<entry key="selectPanelTitleColor">58;鼠标悬停于部件选择面板时文字颜色</entry>
+<entry key="defaultFontSize">59;默认字体大小</entry>
+<entry key="fontPriority">5a;字体系列</entry>
+
+<entry key="jarTransferBufferSize">90;Jar文件缓存</entry>
+<entry key="fileTransferBufferSize">91;文件缓存</entry>
+
+<entry key="drawGridMask">A0;预览时显示网格</entry>
+<entry key="previewGridColor">A1;网格颜色(ARGB)</entry>
+<entry key="previewGridSize">A2;网格大小</entry>
+<entry key="previewUnfilledSpaceForCheckMode">A3;保留空白空间(检查模式)</entry>
+<entry key="enableCheckInfoTooltip">A4;开启运行状态控件(检查模式)</entry>
+
+<entry key="randomChooserMaxHistory">B0;随机模式记忆的历史数量</entry>
+
+</properties>

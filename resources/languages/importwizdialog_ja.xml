@@ -1,0 +1,83 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="title.update">インポート</entry>
+	<entry key="title.new">インポート (新規プロファイル作成)</entry>
+	<entry key="btn.next">次へ</entry>
+	<entry key="btn.prev">戻る</entry>
+	<entry key="btn.finish">実行</entry>
+	<entry key="btn.cancel">キャンセル</entry>
+	<entry key="complete">Complete</entry>
+	<entry key="browse">参照...</entry>
+	<entry key="importingArchiveFile">アーカイブファイル(zip,cmj)からインポート</entry>
+	<entry key="importingDirectory">フォルダからインポート</entry>
+	<entry key="file">ファイル:</entry>
+	<entry key="fileNotFound">ファイルがありません。</entry>
+	<entry key="directoryNotFound">フォルダがありません。</entry>
+
+	<entry key="confirm.close">キャンセルしますか?</entry>
+	<entry key="confirm">確認</entry>
+
+	<entry key="basic.contentsSpec">インポートするコンテンツ</entry>
+	<entry key="basic.chk.presets">プリセット/お気に入り</entry>
+	<entry key="basic.chk.partsImages">パーツ</entry>
+	<entry key="basic.chk.samplePicture">サンプルピクチャ</entry>
+	<entry key="basic.archiveInfo">アーカイブ情報</entry>
+	<entry key="basic.profileId">ID</entry>
+	<entry key="basic.profileRev">REV</entry>
+	<entry key="basic.profileName">名前</entry>
+	<entry key="author">作者</entry>
+	<entry key="description">説明</entry>
+	<entry key="basic.sampleImage">サンプルピクチャ</entry>
+	<entry key="appendDescription">キャラクター定義の説明に上記の説明を追記する。</entry>
+
+	<entry key="noContents">インポートできる内容がありません。</entry>
+	<entry key="notFormalArchive">CharacterManaJのエクスポート形式と異なりますが、使用できる可能性のあるパーツがあります。</entry>
+	<entry key="unmatchedProfileId">プロファイルIDが一致しません。 id="{0}"</entry>
+	<entry key="unmatchedProfileRev">プロファイルIDは一致しますが、リビジョンが一致しません。 rev="{0}"</entry>
+
+	<entry key="parts.title">インポートするパーツ</entry>
+	<entry key="parts.btn.selectAll">全て選択</entry>
+	<entry key="parts.btn.deselectAll">全て解除</entry>
+	<entry key="parts.btn.sort">名前順で整列</entry>
+	<entry key="parts.btn.sortByTimestamp">日付順で整列</entry>
+	
+	<entry key="parts.popup.check">チェックする</entry>
+	<entry key="parts.popup.uncheck">チェックを外す</entry>
+
+	<entry key="parts.column.check">選択</entry>
+	<entry key="parts.column.partsname">パーツ名</entry>
+	<entry key="parts.column.category">カテゴリ名</entry>
+	<entry key="parts.column.imagesize">イメージサイズ</entry>
+	<entry key="parts.column.alpha">透過</entry>
+	<entry key="parts.column.lastmodified">最終更新日</entry>
+	<entry key="parts.column.org-lastmodified">現在の最終更新日</entry>
+	<entry key="parts.column.author">作者</entry>
+	<entry key="parts.column.org-author">現在の作者</entry>
+	<entry key="parts.column.version">バージョン</entry>
+	<entry key="parts.column.org-version">現在のバージョン</entry>
+
+	<entry key="parts.column.check.size">50</entry>
+	<entry key="parts.column.partsname.size">100</entry>
+	<entry key="parts.column.category.size">80</entry>
+	<entry key="parts.column.imagesize.size">50</entry>
+	<entry key="parts.column.alpha.size">50</entry>
+	<entry key="parts.column.lastmodified.size">80</entry>
+	<entry key="parts.column.org-lastmodified.size">80</entry>
+	<entry key="parts.column.author.size">80</entry>
+	<entry key="parts.column.org-author.size">80</entry>
+	<entry key="parts.column.version.size">50</entry>
+	<entry key="parts.column.org-version.size">50</entry>
+	
+	<entry key="preset.title">インポートするお気に入り</entry>
+	<entry key="preset.popup.selectUsedParts">使用しているパーツのインポート</entry>
+	<entry key="preset.column.check">選択</entry>
+	<entry key="preset.column.name">プリセット名</entry>
+	<entry key="preset.column.missings">不足するパーツ</entry>
+	<entry key="preset.column.check.size">50</entry>
+	<entry key="preset.column.name.size">100</entry>
+	<entry key="preset.column.missings.size">200</entry>
+
+	<entry key="complete">インポートが完了しました。</entry>
+	
+</properties>
+

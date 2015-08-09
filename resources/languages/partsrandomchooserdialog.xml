@@ -1,0 +1,10 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="partsRandomChooser">Random Chooser</entry>
+	<entry key="close">Close</entry>
+	<entry key="random">Random</entry>
+	<entry key="reject">Ignore</entry>
+	<entry key="add">More</entry>
+	<entry key="randomAll">Random All</entry>
+	<entry key="back">Back</entry>
+</properties>

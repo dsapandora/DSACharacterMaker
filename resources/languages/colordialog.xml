@@ -1,0 +1,30 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="colordialog.caption">Color - </entry>
+	<entry key="button.apply">Apply</entry>
+	<entry key="button.reset">Reset</entry>
+	<entry key="checkbox.applyAllItems">All items</entry>
+	<entry key="group.replacergb.caption">Replace RGB</entry>
+	<entry key="replacergb">Replace</entry>
+	<entry key="bright">Bright</entry>
+	<entry key="contrast">Contrast</entry>
+	<entry key="group.rgb.caption">RGB</entry>
+	<entry key="red">Red</entry>
+	<entry key="green">Green</entry>
+	<entry key="blue">Blue</entry>
+	<entry key="alpha">Alpha</entry>
+	<entry key="offset">Offset</entry>
+	<entry key="factor">Factor</entry>
+	<entry key="gamma">Gamma</entry>
+	<entry key="colorModel.HSB.title">HSB + Contrast</entry>
+	<entry key="colorModel.HSY.title">HSY + Contrast</entry>
+	<entry key="colorModel.HSB.hue">Hue</entry>
+	<entry key="colorModel.HSB.saturation">Saturation</entry>
+	<entry key="colorModel.HSB.brightness">Brightness</entry>
+	<entry key="colorModel.HSY.hue">Hue</entry>
+	<entry key="colorModel.HSY.saturation">Saturation</entry>
+	<entry key="colorModel.HSY.luminance">Luminance</entry>
+	<entry key="colorgroup">Color Group</entry>
+	<entry key="group">Group</entry>
+	<entry key="synchronized">Synchronized</entry>
+</properties>

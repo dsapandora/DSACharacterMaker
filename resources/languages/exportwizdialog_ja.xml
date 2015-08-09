@@ -1,0 +1,65 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="author">作者</entry>
+	<entry key="description">説明</entry>
+	<entry key="characterdef">キャラクター定義</entry>
+	<entry key="exportSubset">部分的なエクスポート(差分セット)</entry>
+
+	<entry key="title">エクスポート</entry>
+	<entry key="complete">完了しました。</entry>
+
+	<entry key="confirm">確認</entry>
+	<entry key="confirm.close">キャンセルしますか?</entry>
+	<entry key="confirm.overwrite">ファイルが既に存在します。上書きしてもよろしいですか?</entry>
+	<entry key="requiredExists">ファイルがありません。</entry>
+
+	<entry key="btn.next">次へ</entry>
+	<entry key="btn.prev">戻る</entry>
+	<entry key="btn.finish">実行</entry>
+	<entry key="btn.cancel">キャンセル</entry>
+
+	<entry key="basic.contentsSpec">エクスポートするコンテンツ</entry>
+	<entry key="basic.comment">コメント</entry>
+	<entry key="basic.sampleImage">サンプルイメージ</entry>
+	<entry key="basic.chk.partsImages">パーツ</entry>
+	<entry key="basic.chk.presets">プリセット/お気に入り</entry>
+	<entry key="basic.chk.samplePicture">サンプルイメージ</entry>
+
+	<entry key="parts.title">パーツの選択</entry>
+	<entry key="parts.column.selected">選択</entry>
+	<entry key="parts.column.category">カテゴリ</entry>
+	<entry key="parts.column.name">パーツ名</entry>
+	<entry key="parts.column.timestamp">更新日時</entry>
+	<entry key="parts.column.author">作者</entry>
+	<entry key="parts.column.version">バージョン</entry>
+	
+	<entry key="parts.column.selected.width">50</entry>
+	<entry key="parts.column.category.width">100</entry>
+	<entry key="parts.column.name.width">150</entry>
+	<entry key="parts.column.timestamp.width">100</entry>
+	<entry key="parts.column.author.width">80</entry>
+	<entry key="parts.column.version.width">50</entry>
+	
+	<entry key="parts.btn.selectAll">すべて選択</entry>
+	<entry key="parts.btn.deselectAll">すべて選択解除</entry>
+	<entry key="parts.btn.sort">名前順で整列</entry>
+	<entry key="parts.btn.sortByTimestamp">日付順で整列</entry>
+
+	<entry key="parts.popup.check">チェックする</entry>
+	<entry key="parts.popup.uncheck">チェックを外す</entry>
+
+	<entry key="preset.title">プリセット／お気に入りの選択</entry>
+	<entry key="preset.column.selected">選択</entry>
+	<entry key="preset.column.default">既定</entry>
+	<entry key="preset.column.name">名前</entry>
+	<entry key="preset.column.missingparts">不足するパーツ</entry>
+	<entry key="preset.column.selected.width">50</entry>
+	<entry key="preset.column.default.width">50</entry>
+	<entry key="preset.column.name.width">150</entry>
+	<entry key="preset.column.missingparts.width">300</entry>
+	<entry key="preset.btn.selectAll">すべて選択</entry>
+	<entry key="preset.btn.deselectAll">すべて選択解除</entry>
+	<entry key="preset.btn.sort">整列</entry>
+	<entry key="preset.popup.selectUsedParts">使用パーツをエクスポート対象にする</entry>
+
+</properties>

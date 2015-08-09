@@ -1,0 +1,36 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="title">Manage Parts's author</entry>
+	<entry key="partslist">Parts List</entry>
+	<entry key="sortByName">Sort by name</entry>
+	<entry key="sortByAuthor">Sort by Author</entry>
+	<entry key="sortByTimestamp">Sort by Last-modified</entry>
+	<entry key="applyAllLastModified">Up to date</entry>
+	<entry key="applyAllDownloadURL">Batch input for the download URL.</entry>
+	<entry key="applyAllVersion">Batch input for the version.</entry>
+	<entry key="author.info">Author Information</entry>
+	<entry key="author">Author:</entry>
+	<entry key="homepage">Homepage:</entry>
+	<entry key="open">Open</entry>
+	<entry key="cancel">Cancel</entry>
+	<entry key="update">Update</entry>
+	<entry key="confirm.authorConflict">Is the batch application done though two or more authors have been selected?</entry>
+	<entry key="confirm">Confirm</entry>
+	<entry key="input.downloadURL">Input the Download URL</entry>
+	<entry key="input.version">Input the version number</entry>
+	<entry key="confirm.cancel">May I annul the edit?</entry>
+	<entry key="column.partsid">Parts ID</entry>
+	<entry key="column.lastmodified">Last-Modified</entry>
+	<entry key="column.category">Category</entry>
+	<entry key="column.partsname">Localized name</entry>
+	<entry key="column.author">Author</entry>
+	<entry key="column.version">Version</entry>
+	<entry key="column.downloadURL">Download URL</entry>
+	<entry key="column.partsid.width">100</entry>
+	<entry key="column.lastmodified.width">80</entry>
+	<entry key="column.category.width">80</entry>
+	<entry key="column.partsname.width">100</entry>
+	<entry key="column.author.width">80</entry>
+	<entry key="column.version.width">50</entry>
+	<entry key="column.downloadURL.width">150</entry>
+</properties>

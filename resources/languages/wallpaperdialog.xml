@@ -1,0 +1,25 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+<entry key="title">Background</entry>
+
+<entry key="group.wallpaper">Wallpaper</entry>
+<entry key="group.bgcolor">Background color</entry>
+
+<entry key="label.wallpaperImageAlpha">Opacity</entry>
+
+<entry key="predefinedWallpaper.lattice_s">Lattice (small)</entry>
+<entry key="predefinedWallpaper.lattice_l">Lattice (large)</entry>
+
+<entry key="radio.none">None</entry>
+<entry key="radio.file">File</entry>
+<entry key="radio.predefined">Predefined</entry>
+
+<entry key="btn.chooseFile">Choose</entry>
+<entry key="btn.ok">OK</entry>
+<entry key="btn.cancel">Cancel</entry>
+
+<entry key="error.require.imageFile">The file is required.</entry>
+<entry key="error.require.resource">The predefined image is required.</entry>
+<entry key="error.invalid.imageFile">A file does not exist, or it cannot read.</entry>
+
+</properties>

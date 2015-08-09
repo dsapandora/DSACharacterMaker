@@ -1,0 +1,106 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<style type="text/css">
+<!--
+p {
+  text-indent: 10px;
+  margin: 5px;
+}
+h2 {
+  margin-top: 20px;
+}
+
+-->
+</style>
+</head>
+<h1><font color="blue"><b>ChracterManaJ</b> Version @@SPECIFICATION-VERSIONINFO@@</font></h1>
+<div style="text-align: right;">実装バージョン: @@IMPLEMENTS-VERSIONINFO@@</div>
+<h2>[このアプリケーションについて]</h2>
+<p>このアプリケーションは複数の画像を選択し重ね合わせることで一つの画像を作り出す、モンタージュを行うアプリケーションです。</p>
+<p>用途としてパーツを組み合わせてキャラクターをデザインするという、一種の着せ替えを楽しむことを想定していますが、それに限りません。</p>
+<p>モンタージュするための素材の画像データがないと、このアプリケーションは何もできません。ご自身で作成するか、既にある画像データを用意するなどしてください。</p>
+<p>カテゴリ、レイヤー、カラーグループを増減させたりなど、画像の組み合わせ方については新しいプロファイルを作成することで自分好みの設定にすることができます。</p>
+<p>このアプリケーションは、<a href="http://khmix.sakura.ne.jp/">K.Hみっくす ふぁーすとえでぃしょん さんの<br>
+「キャラクターなんとか機」</a>を目標にJAVAによりフルスクラッチから書き起こしたものです。</p>
+<p>初期状態で、「キャラクターなんとか機」と同じカテゴリ、レイヤー順序、ディレクトリ、カラーグループの設定がされたプロファイルが作成されますので、
+「キャラクターなんとか機」のパーツデータをインポートして使うことができます。</p>
+
+<h2>[ライセンス/使用許諾条件]</h2>
+<p>「キャラクターなんとかJ」はオープンソースソフトウェアです。ソースコードは「The Apache License Version 2.0」です。</p>
+<p><font color="red">本ソフトウェアは完全に無保証です。</font>本ソフトウェアは「現状のまま」、かつ明示か暗黙であるかを問わず、一切の保証を付けずに提供されます。</p>
+<p><a href="http://sourceforge.jp/projects/charactermanaj/releases/">ここから最新リリース</a> 、
+および<a href="http://sourceforge.jp/projects/charactermanaj/scm/svn/">最新リリースのソースコード</a>を取得することができます。</p>
+<p>商用利用であるかを否かを問わず、どなたでも、自由にお使いいただけます。登録や費用は一切必要ありません。再配布も自由になさってかまいません。</p> 
+<p></p>
+<p>このアプリケーション自身(javaコード)は<a href="http://hp.vector.co.jp/authors/VA017626/">seraphy</a>によって書かれました。<br>
+人的リソースに限りがあるため、メンテナンスや改善に時間がかかることが予想されます。<br>
+このアプリケーションをより良くしようという有志がおられましたら、ぜひ、ご協力・ご連絡くださいますようお願いいたします。歓迎いたします。</p>
+<p>また、バグレポート等ありましたら、どなた様も上記プロジェクトページにてご報告くださいますよう、お願いいたします。</p>
+
+<h2>[キャラクターデータについて]</h2>
+<p>このアプリケーションを動作させるためには、パーツの画像データが必要です。</p>
+<p>初期状態のプロファイルでは「キャラクターなんとか機 Ver2」で使える画像を利用できるよう設定されます。
+キャラクターデータのインポート方法はヘルプをご参照ください。</p>
+<p>　「キャラクターなんとか機 Ver2」を目標としましたが、色調整等のパラメータを解析しきれなかったため完全には色を再現できていません。
+そのかわり、各レイヤーごとに色の微調整ができるようにしているため、近い色を再現するはできると思います。
+その他、いろいろ不備があると思いますがご容赦ください。</p>
+
+<h2>[パーツデータの作者様へ]</h2>
+<p>パーツデータをお持ちか、作成された方で、オープンソース系(たとえば<a href="http://creativecommons.jp/licenses/">クリエイティブコモンズ</a>など)
+のライセンスで配布を許可くださる方は、ぜひ、ご連絡ください。</p>
+<p>プロジェクトの配布ファイルに加えさせていただこうと思います。</p>
+
+<h2>[動作環境]</h2>
+<p>以下の環境での利用を想定しています。</p>
+<ul>
+	<li>Mac OS X
+		<ul>
+			<li>10.4 Tiger (Intel/PPC) J2SE5</li>
+			<li>10.5 Leopard (Intel/PPC) J2SE5</li>
+			<li>10.5 Leopard (Intel) JavaSE6</li>
+			<li>10.6 Snow Leopard (Intel) JavaSE6</li>
+			<li>10.7 Lion (Intel) JavaSE6 (Java for Mac OS X 10.7 is required.)</li>
+			<li>10.7 Lion (Intel) Java7 (Oracle, Java7u45 or later)</li>
+			<li>10.8 Mountain Lion (Intel) JavaSE6u65 or later (Java for OS X 2013-005 is required.)</li>
+			<li>10.8 Mountain Lion (Intel) Java7 (Oracle, java7u45 or later)</li>
+			<li>10.9 Marvericks (Intel) JavaSE6u65 or later (Java for OS X 2013-005 is required.)</li>
+			<li>10.9 Marvericks (Intel) Java7 (Oracle, java7u45 or later)</li>
+		</ul>
+	</li>
+	<li>Microsoft Windows
+		<ul>
+			<li>Windows 2000 SP4 (32Bit) JavaSE6 (日本語版のみ)</li>
+			<li>Windows XP SP2+ (32Bit) JavaSE6 (日本語版、それ以外はEast asian languagesをコンパネからインストール済みのこと)</li>
+			<li>Windows Vista SP1以降 (32/64Bit) JavaSE6</li>
+			<li>Windows 7 (32/64Bit) JavaSE6, Java7u45 or later</li>
+			<li>Windows 8 (32/64Bit) JavaSE6, Java7u45 or later</li>
+			<li>Windows 8.1 (32/64Bit) JavaSE6, Java7u45 or later</li>
+		</ul>
+	</li>
+	<li>Linux
+		<ul>
+			<li>Ubuntu 10.04 sun-java-jdk6</li>
+			<li>Ubuntu 12.04 openjdk7</li>
+			<li>Fedora 14 Desktop openjdk-1.6.0/sun-java-jdk6 (sun-javaを推奨)</li>
+		</ul>
+	</li>
+</ul>
+<p>J2SE5で記述しているため、J2SE5のデスクトップをサポートした実行環境があれば基本的には動作すると思います。</p>
+<p>Windows環境ではJ2SE5でも動作しますが、Java7を推奨します。</p>
+<p>Mac OS Xも同様にJava7(Oracle)を推奨します。(AppleのJavaSE5/JavaSE6でも動作します。)</p>
+<p>OS X 10.7以降は標準ではJavaはインストールされていません。AppleのサイトからJava6をインストールするか、OracleのサイトからJava7をインストールする必要があります.<p>
+<p>Mac OS X上での本アプリケーションは、AppleのJava5/6用と、OracleのJava7用と、それぞれ専用版のアプリケーションに分けています。</p>
+<p>メモリは、Mac OS Xのアプリケーションバンドル形式、またはWindowsのEXE形式での配布形式では、初期状態で96MB、最大で128MBの設定を行っています。</p>
+<p>実行可能JAR形式ではJREのデフォルトのサイズが使われます。これは搭載している物理メモリによって割り当てられるサイズが64MBあるいは256MBのように変わります。</p>
+<p>おそらく通常の利用方法において64MBの割り当てでは、やや不足する感があると思いますが、一応、動作はすると思います。</p>
+<p>実際のメモリ使用状況については Aboutメニューからシステム情報タブの中で確認することができます。</p>
+<p>Linuxをお使いの場合は、openjdk7を推奨します。</p>
+<p>(Linux上でJavaSE6を使われる場合は、sun-java6を推奨します。基本的にはopenjdk6でも動作しますが、クリップボードが機能しません。)</p>
+
+<h2>[利用コンポーネントについて]</h2>
+<p>J2SE5の標準APIの他、Apache Antの一部(The Apache License Version 2.0)をライブラリとして使用しています。</p>
+<p>また、カラーモデルのHSY(色相・彩度・輝度)計算には、
+<a href="http://d.hatena.ne.jp/gununu/20090721/1248171222">"gununuの日記"</a>さん
+のところのC++計算ルーチンをJava用に書き直したものを使用しています。</p>
+</html>

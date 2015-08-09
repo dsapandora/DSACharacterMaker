@@ -1,0 +1,7 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="displayOrder">character3.xml,character2.xml</entry>
+	<entry key="character2.xml">CharacterNantokaki Ver2.x Compatible</entry>
+	<entry key="character3.xml">CharacterNantokaki Ver3 Compatible</entry>
+</properties>
+	

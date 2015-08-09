@@ -1,0 +1,82 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="title.update">导入</entry>
+	<entry key="title.new">导入(新的配置)</entry>
+	<entry key="complete">完成</entry>
+	<entry key="btn.next">下一步</entry>
+	<entry key="btn.prev">上一部</entry>
+	<entry key="btn.finish">完成</entry>
+	<entry key="btn.cancel">取消</entry>
+	<entry key="browse">浏览</entry>
+	<entry key="importingArchiveFile">导入压缩文件(zip,cmj)</entry>
+	<entry key="importingDirectory">从文件夹导入</entry>
+	<entry key="fileNotFound">找不到文件</entry>
+	<entry key="directoryNotFound">找不到文件夹</entry>
+
+	<entry key="confirm.close">你确认要取消么?</entry>
+	<entry key="confirm">确认</entry>
+
+	<entry key="basic.contentsSpec">导入内容</entry>
+	<entry key="basic.chk.presets">默认/预设</entry>
+	<entry key="basic.chk.partsImages">部件</entry>
+	<entry key="basic.chk.samplePicture">例图</entry>
+	<entry key="basic.archiveInfo">压缩信息</entry>
+	<entry key="basic.profileId">ID</entry>
+	<entry key="basic.profileRev">版本</entry>
+	<entry key="basic.profileName">名称</entry>
+	<entry key="author">作者</entry>
+	<entry key="description">说明</entry>
+	<entry key="basic.sampleImage">例图</entry>
+	<entry key="appendDescription">将说明添加到此配置</entry>
+
+	<entry key="noContents">没有内容</entry>
+	<entry key="notFormalArchive">这不是一个标准CMJ的压缩包，但可能包含了一些图片.</entry>
+	<entry key="unmatchedProfileId">配置的ID不匹配。 id="{0}"</entry>
+	<entry key="unmatchedProfileRev">配置的版本不匹配。 rev="{0}"</entry>
+
+	<entry key="parts.title">导入部件</entry>
+	<entry key="parts.btn.selectAll">全部选择</entry>
+	<entry key="parts.btn.deselectAll">全部取消</entry>
+	<entry key="parts.btn.sort">按名称排序</entry>
+	<entry key="parts.btn.sortByTimestamp">按更新时间排序</entry>
+
+	<entry key="parts.popup.check">选择</entry>
+	<entry key="parts.popup.uncheck">取消</entry>
+
+	<entry key="parts.column.check">选择</entry>
+	<entry key="parts.column.partsname">名称</entry>
+	<entry key="parts.column.category">分类</entry>
+	<entry key="parts.column.imagesize">图像大小</entry>
+	<entry key="parts.column.alpha">透明</entry>
+	<entry key="parts.column.lastmodified">最后更新</entry>
+	<entry key="parts.column.org-lastmodified">当前配置的最后更新</entry>
+	<entry key="parts.column.author">作者</entry>
+	<entry key="parts.column.org-author">当前配置的作者</entry>
+	<entry key="parts.column.version">版本</entry>
+	<entry key="parts.column.org-version">当前配置的版本</entry>
+
+	<entry key="parts.column.check.size">50</entry>
+	<entry key="parts.column.partsname.size">100</entry>
+	<entry key="parts.column.category.size">80</entry>
+	<entry key="parts.column.imagesize.size">50</entry>
+	<entry key="parts.column.alpha.size">50</entry>
+	<entry key="parts.column.lastmodified.size">80</entry>
+	<entry key="parts.column.org-lastmodified.size">80</entry>
+	<entry key="parts.column.author.size">80</entry>
+	<entry key="parts.column.org-author.size">80</entry>
+	<entry key="parts.column.version.size">50</entry>
+	<entry key="parts.column.org-version.size">50</entry>
+
+	<entry key="preset.title">导入默认/预设</entry>
+	<entry key="preset.popup.selectUsedParts">导入使用的部件</entry>
+	<entry key="preset.column.check">选择</entry>
+	<entry key="preset.column.name">名称</entry>
+	<entry key="preset.column.missings">缺失的部件</entry>
+	<entry key="preset.column.check.size">50</entry>
+	<entry key="preset.column.name.size">100</entry>
+	<entry key="preset.column.missings.size">200</entry>
+	
+	<entry key="complete">完成</entry>
+	
+</properties>
+

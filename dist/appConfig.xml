@@ -1,0 +1,21 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="dirWatchInterval">7000</entry>
+	<entry key="selectedItemBgColor">#ffc800</entry>
+	<entry key="noRemoveLog">false</entry>
+	<entry key="exportPresetWarningsForegroundColor">#ff0000</entry>
+	<entry key="checkedItemBgColor">#ffff</entry>
+	<entry key="compressionQuality">0.8</entry>
+	<entry key="commonCharacterDataDir"></entry>
+	<entry key="informationDialogOpenMethod">true</entry>
+	<entry key="gridColor">#808080</entry>
+	<entry key="sampleImageBgColor">#ffffff</entry>
+	<entry key="defaultImageBgColor">#ffffff</entry>
+	<entry key="invalidBgColor">#ff0000</entry>
+	<entry key="zipNameEncoding">csWindows31J</entry>
+	<entry key="jarTransferBufferSize">4096</entry>
+	<entry key="fileTransferBufferSize">4096</entry>
+	<entry key="enableDirWatch">true</entry>
+	<entry key="enableAutoColorChange">true</entry>
+	<entry key="authorEditConflictBgColor">#ffff00</entry>
+</properties>

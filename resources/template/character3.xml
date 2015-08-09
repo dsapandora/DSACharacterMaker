@@ -1,0 +1,318 @@
+<?xml version="1.0"?>
+<character
+    xmlns="http://charactermanaj.sourceforge.jp/schema/charactermanaj"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://charactermanaj.sourceforge.jp/schema/charactermanaj character.xsd"
+    version="1.0"
+    id="default"
+    rev="default_v3">
+
+    <name xml:lang="en">Default(v3)</name>
+    <name xml:lang="ja">デフォルト(v3)</name>
+
+    <information>
+    	<author xml:lang="en">Unknown</author>
+    	<author xml:lang="ja">名無し</author>
+        <author xml:lang="zh">无名</author>
+        <author xml:lang="zh_TW">無名</author>
+    	<description xml:lang="en"><![CDATA[default character]]></description>
+    	<description xml:lang="ja"><![CDATA[デフォルトのキャラクター(キャラクターなんとか機Ver3互換セット)]]></description>
+    </information>
+
+    <image-size>
+        <width>300</width>
+        <height>400</height>
+    </image-size>
+
+    <settings>
+        <entry key="watch-dir">true</entry>
+    </settings>
+
+    <categories>
+        <category id="hair_front" multipleSelectable="false">
+            <visible-rows>6</visible-rows>
+            <display-name xml:lang="en">Hair - Front</display-name>
+            <display-name xml:lang="ja">髪型 - 手前</display-name>
+            <display-name xml:lang="zh">发型 - 这边</display-name>
+            <display-name xml:lang="zh_TW">髮型 - 這邊</display-name>
+            <layers>
+                <layer id="hair_front">
+                    <display-name xml:lang="en">Variable</display-name>
+                    <display-name xml:lang="ja">可変色</display-name>
+                    <display-name xml:lang="zh">可变颜色</display-name>
+                    <display-name xml:lang="zh_TW">可變顏色</display-name>
+                    <order>13</order>
+                    <colorGroup refid="color-hair" init-sync="true"/>
+                    <dir>hair_front</dir>
+                    <colorModel>HSB</colorModel>
+                </layer>
+                <layer id="hair_front_accessory">
+                    <display-name xml:lang="en">Accessory</display-name>
+                    <display-name xml:lang="ja">アクセサリ</display-name>
+                    <display-name xml:lang="zh">饰品</display-name>
+                    <display-name xml:lang="zh_TW">飾品</display-name>
+                    <order>14</order>
+                    <dir>hair_front_accessory</dir>
+                    <colorModel>HSB</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="hair_back" multipleSelectable="false">
+            <visible-rows>6</visible-rows>
+            <display-name xml:lang="en">Hair - Back</display-name>
+            <display-name xml:lang="ja">髪型 - 後ろ</display-name>
+            <display-name xml:lang="zh">发型 - 背后</display-name>
+            <display-name xml:lang="zh_TW">髮型 - 背後</display-name>
+            <layers>
+                <layer id="hair_back">
+                    <display-name xml:lang="en">Variable</display-name>
+                    <display-name xml:lang="ja">可変色</display-name>
+                    <display-name xml:lang="zh">可变颜色</display-name>
+                    <display-name xml:lang="zh_TW">可變顏色</display-name>
+                    <order>2</order>
+                    <colorGroup refid="color-hair" init-sync="true"/>
+                    <dir>hair_back</dir>
+                    <colorModel>HSB</colorModel>
+                </layer>
+                <layer id="hair_back_accessory">
+                    <display-name xml:lang="en">Accessory</display-name>
+                    <display-name xml:lang="ja">アクセサリ</display-name>
+                    <display-name xml:lang="zh">饰品</display-name>
+                    <display-name xml:lang="zh_TW">飾品</display-name>
+                    <order>3</order>
+                    <dir>hair_back_accessory</dir>
+                    <colorModel>HSB</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="head" multipleSelectable="false">
+            <visible-rows>6</visible-rows>
+            <display-name xml:lang="en">Head</display-name>
+            <display-name xml:lang="ja">頭</display-name>
+            <display-name xml:lang="zh">头</display-name>
+            <display-name xml:lang="zh_TW">頭</display-name>
+            <layers>
+                <layer id="head">
+                    <display-name xml:lang="en">Head</display-name>
+                    <display-name xml:lang="ja">頭</display-name>
+                    <display-name xml:lang="zh">头</display-name>
+                    <display-name xml:lang="zh_TW">頭</display-name>
+                    <order>10</order>
+                    <colorGroup refid="color-skin" init-sync="true"/>
+                    <dir>head</dir>
+                    <colorModel>HSB</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="face" multipleSelectable="false">
+            <visible-rows>6</visible-rows>
+            <display-name xml:lang="en">Expression</display-name>
+            <display-name xml:lang="ja">表情</display-name>
+            <display-name xml:lang="zh">脸色</display-name>
+            <display-name xml:lang="zh_TW">臉色</display-name>
+            <layers>
+                <layer id="face_front">    
+                    <display-name xml:lang="en">Face</display-name>
+                    <display-name xml:lang="ja">表情</display-name>
+                    <display-name xml:lang="zh">脸色</display-name>
+                    <display-name xml:lang="zh_TW">臉色</display-name>
+                    <order>15</order>
+                    <dir>face_front</dir>
+                    <colorModel>HSB</colorModel>
+                </layer>
+                <layer id="face_back">
+                    <display-name xml:lang="en">Accessory</display-name>
+                    <display-name xml:lang="ja">アクセサリ</display-name>
+                    <display-name xml:lang="zh">饰品</display-name>
+                    <display-name xml:lang="zh_TW">飾品</display-name>
+                    <order>12</order>
+                    <dir>face_back</dir>
+                    <colorModel>HSB</colorModel>
+                </layer>
+                <layer id="face_haircolor">
+                    <display-name xml:lang="en">Hair</display-name>
+                    <display-name xml:lang="ja">髪色</display-name>
+                    <display-name xml:lang="zh">头发颜色</display-name>
+                    <display-name xml:lang="zh_TW">頭髮顏色</display-name>
+                    <order>16</order>
+                    <colorGroup refid="color-hair" init-sync="true"/>
+                    <dir>face_haircolor</dir>
+                    <colorModel>HSB</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="eye" multipleSelectable="false">
+            <visible-rows>6</visible-rows>
+            <display-name xml:lang="en">Eyes</display-name>
+            <display-name xml:lang="ja">目</display-name>
+            <display-name xml:lang="zh">眼</display-name>
+            <display-name xml:lang="zh_TW">眼</display-name>
+            <layers>
+                <layer id="eye">
+                    <display-name xml:lang="en">Eye</display-name>
+                    <display-name xml:lang="ja">目</display-name>
+                    <display-name xml:lang="zh">眼</display-name>
+                    <display-name xml:lang="zh_TW">眼</display-name>
+                    <order>17</order>
+                    <dir>eye</dir>
+                    <colorModel>HSB</colorModel>
+                </layer>
+                <layer id="eye_color">
+                    <display-name xml:lang="en">Variable</display-name>
+                    <display-name xml:lang="ja">可変色</display-name>
+                    <display-name xml:lang="zh">可变颜色</display-name>
+                    <display-name xml:lang="zh_TW">可變顏色</display-name>
+                    <order>18</order>
+                    <colorGroup refid="color-eye" init-sync="true"/>
+                    <dir>eye_color</dir>
+                    <colorModel>HSB</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="body" multipleSelectable="false">
+            <visible-rows>6</visible-rows>
+            <display-name xml:lang="en">Body</display-name>
+            <display-name xml:lang="ja">身体</display-name>
+            <display-name xml:lang="zh">身体</display-name>
+            <display-name xml:lang="zh_TW">身體</display-name>
+            <layers>
+                <layer id="body_front_color">
+                    <display-name xml:lang="en">Variable</display-name>
+                    <display-name xml:lang="ja">可変色</display-name>
+                    <display-name xml:lang="zh">可变颜色</display-name>
+                    <display-name xml:lang="zh_TW">可變顏色</display-name>
+                    <order>7</order>
+                    <colorGroup init-sync="true" refid="color-dress"/>
+                    <dir>body_front_color</dir>
+                    <colorModel>HSB</colorModel>
+                </layer>
+                <layer id="body_front">
+                    <display-name xml:lang="en">Clothes</display-name>
+                    <display-name xml:lang="ja">ドレス</display-name>
+                    <display-name xml:lang="zh">衣服</display-name>
+                    <display-name xml:lang="zh_TW">衣服</display-name>
+                    <order>6</order>
+                    <dir>body_front</dir>
+                    <colorModel>HSB</colorModel>
+                </layer>
+                <layer id="body_back">
+                    <display-name xml:lang="en">Skin</display-name>
+                    <display-name xml:lang="ja">肌</display-name>
+                    <display-name xml:lang="zh">皮肤</display-name>
+                    <display-name xml:lang="zh_TW">皮膚</display-name>
+                    <order>4</order>
+                    <colorGroup refid="color-skin" init-sync="true"/>
+                    <dir>body_back</dir>
+                    <colorModel>HSB</colorModel>
+                </layer>
+                <layer id="body_front_accessory">
+                    <display-name xml:lang="en">Accessory</display-name>
+                    <display-name xml:lang="ja">アクセサリ</display-name>
+                    <display-name xml:lang="zh">饰品</display-name>
+                    <display-name xml:lang="zh_TW">飾品</display-name>
+                    <order>8</order>
+                    <dir>body_front_accessory</dir>
+                    <colorModel>HSB</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="accessory" multipleSelectable="true">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="en">Accessory</display-name>
+            <display-name xml:lang="ja">アクセサリー</display-name>
+            <display-name xml:lang="zh">饰品</display-name>
+            <display-name xml:lang="zh_TW">飾品</display-name>
+            <layers>
+                <layer id="accessory_front">
+                    <display-name xml:lang="en">Top</display-name>
+                    <display-name xml:lang="ja">最前面</display-name>
+                    <display-name xml:lang="zh">最跟前</display-name>
+                    <display-name xml:lang="zh_TW">最跟前</display-name>
+                    <order>19</order>
+                    <dir>accessory_front</dir>
+                    <colorModel>HSB</colorModel>
+                </layer>
+                <layer id="accessory_middle_front" >
+                    <display-name xml:lang="en">Middle(R)</display-name>
+                    <display-name xml:lang="ja">中間(R)</display-name>
+                    <display-name xml:lang="zh">中间(右)</display-name>
+                    <display-name xml:lang="zh_TW">中間(右)</display-name>
+                    <order>11</order>
+                    <dir>accessory_middle_front</dir>
+                    <colorModel>HSB</colorModel>
+                </layer>
+                <layer id="accessory_middle_back">
+                    <display-name xml:lang="en">Middle(L)</display-name>
+                    <display-name xml:lang="ja">中間(L)</display-name>
+                    <display-name xml:lang="zh">中间(左)</display-name>
+                    <display-name xml:lang="zh_TW">中間(左)</display-name>
+                    <order>9</order>
+                    <dir>accessory_middle_back</dir>
+                    <colorModel>HSB</colorModel>
+                </layer>
+                <layer id="accessory_underwear">
+                    <display-name xml:lang="en">Underwear</display-name>
+                    <display-name xml:lang="ja">アンダーウェア</display-name>
+                    <display-name xml:lang="zh">内衣</display-name>
+                    <display-name xml:lang="zh_TW">內衣</display-name>
+                    <order>5</order>
+                    <dir>accessory_underwear</dir>
+                    <colorModel>HSB</colorModel>
+                </layer>
+                <layer id="accessory_back">
+                    <display-name xml:lang="en">Back</display-name>
+                    <display-name xml:lang="ja">最背面</display-name>
+                    <display-name xml:lang="zh">最后面</display-name>
+                    <display-name xml:lang="zh_TW">最後面</display-name>
+                    <order>1</order>
+                    <dir>accessory_back</dir>
+                    <colorModel>HSB</colorModel>
+                </layer>
+            </layers>
+        </category>
+    </categories>
+
+    <colorGroups>
+        <colorGroup id="color-hair">
+            <display-name xml:lang="en">Hair</display-name>
+            <display-name xml:lang="ja">髪</display-name>
+            <display-name xml:lang="zh">头发</display-name>
+            <display-name xml:lang="zh_TW">頭髮</display-name>
+        </colorGroup>
+        <colorGroup id="color-eye">
+            <display-name xml:lang="en">Eye</display-name>
+            <display-name xml:lang="ja">瞳</display-name>
+            <display-name xml:lang="zh">瞳孔</display-name>
+            <display-name xml:lang="zh_TW">瞳孔</display-name>
+        </colorGroup>
+        <colorGroup id="color-skin">
+            <display-name xml:lang="en">Skin</display-name>
+            <display-name xml:lang="ja">肌</display-name>
+            <display-name xml:lang="zh">肤色</display-name>
+            <display-name xml:lang="zh_TW">膚色</display-name>
+        </colorGroup>
+        <colorGroup id="color-dress">
+            <display-name xml:lang="en">Dress</display-name>
+            <display-name xml:lang="ja">服</display-name>
+            <display-name xml:lang="zh">衣服</display-name>
+            <display-name xml:lang="zh_TW">衣服</display-name>
+        </colorGroup>
+    </colorGroups>
+
+    <recommendations>
+        <recommendation>
+            <description xml:lang="en">Originator (K.Hmix 1st Edition)</description>
+            <description xml:lang="ja">(キャラクターなんとか機本家) K.Hmix 1st Edition</description>
+            <URL xml:lang="en">http://khmix.sakura.ne.jp/</URL>
+        </recommendation>
+        <recommendation>
+            <description xml:lang="en">The storage of an additional parts</description>
+            <description xml:lang="ja">キャラクターなんとか機 追加パーツ保管庫</description>
+            <description xml:lang="zh">キャラクターなんとか機 追加パーツ保管庫 (零件的保管库)</description>
+            <description xml:lang="zh_TW">キャラクターなんとか機 追加パーツ保管庫 (零件的保管庫)</description>
+            <URL xml:lang="en">http://nantoka.main.jp/</URL>
+        </recommendation>
+    </recommendations>
+
+</character>

@@ -1,0 +1,89 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="title.edit">配置(编辑)</entry>
+	<entry key="title.new">配置(新建)</entry>
+	<entry key="button.ok.edit">更新</entry>
+	<entry key="button.ok.new">创建</entry>
+	<entry key="button.cancel">取消</entry>
+	<entry key="button.openDir">打开位置</entry>
+	<entry key="confirm.changestructre">你确认要改变图层构造么?</entry>
+	<entry key="confirm.needchangerevision">图层构造以已改变,是否立刻更新版本?</entry>
+	<entry key="id.caption">ID:</entry>
+	<entry key="id.caption.help"><![CDATA[<html>当前使用的ID为保留字段<br>
+	例如,"default"是“character-nantoka-ki”配置的标准ID！</html>]]></entry>
+	<entry key="rev.caption.help">版本</entry>
+	<entry key="rev.caption">版本:</entry>
+	<entry key="docbase.caption">设置:</entry>
+	<entry key="name.caption">名称:</entry>
+	<entry key="image-width.caption">图像宽度:</entry>
+	<entry key="image-height.caption">图像高度:</entry>
+	<entry key="author.caption">作者:</entry>
+	<entry key="description.caption">说明:</entry>
+	<entry key="colorgroup.add.caption">增加</entry>
+	<entry key="colorgroup.delete.caption">移除</entry>
+	<entry key="warning.used-colorgroup">无法移除此颜色组，当前颜色组正在使用。</entry>
+	<entry key="colorgroup.moveup.caption">向上</entry>
+	<entry key="colorgroup.movedown.caption">向下</entry>
+	<entry key="categories.add.caption">增加</entry>
+	<entry key="categories.delete.caption">移除</entry>
+	<entry key="warning.used-category">无法移除此分类，当前分类正在使用。</entry>
+	<entry key="categories.moveup.caption">向上</entry>
+	<entry key="categories.movedown.caption">向下</entry>
+	<entry key="layers.add.caption">增加</entry>
+	<entry key="layers.delete.caption">移除</entry>
+	<entry key="layers.sort.caption">排序</entry>
+	<entry key="layers.moveup.caption">向上</entry>
+	<entry key="layers.movedown.caption">向下</entry>
+	<entry key="layers.watchdir">显示目录</entry>
+	<entry key="panel.basicinfomation">基本设置</entry>
+	<entry key="panel.colorgroup">颜色组</entry>
+	<entry key="panel.categories">分类</entry>
+	<entry key="panel.layers">图层</entry>
+	<entry key="confirm">确认</entry>
+	<entry key="confirm.close">你确定要取消么?</entry>
+
+	<entry key="colorgroup.column.colorgroupname">颜色组名称</entry>
+
+	<entry key="categories.column.categoryname">分类名称</entry>
+	<entry key="categories.column.multipleselectable">可多选</entry>
+	<entry key="categories.column.displayrowcount">显示行数</entry>
+	<entry key="categories.column.usedlayers">使用的图层</entry>
+	<entry key="categories.column.categoryname.width">100</entry>
+	<entry key="categories.column.multipleselectable.width">50</entry>
+	<entry key="categories.column.displayrowcount.width">50</entry>
+	<entry key="categories.column.usedlayers.width">300</entry>
+
+	<entry key="layers.column.layername">图层名称</entry>
+	<entry key="layers.column.category">分类</entry>
+	<entry key="layers.column.colorgroup">颜色组</entry>
+	<entry key="layers.column.order">排序</entry>
+	<entry key="layers.column.colorModel">颜色模式</entry>
+	<entry key="layers.column.directory">目录</entry>
+	<entry key="layers.column.layername.width">100</entry>
+	<entry key="layers.column.category.width">100</entry>
+	<entry key="layers.column.colorgroup.width">100</entry>
+	<entry key="layers.column.order.width">50</entry>
+	<entry key="layers.column.colorModel.width">100</entry>
+	<entry key="layers.column.directory.width">300</entry>
+
+	<entry key="panel.partssets">预设</entry>
+	<entry key="partssets.column.default">默认</entry>
+	<entry key="partssets.column.preset">预设</entry>
+	<entry key="partssets.column.partssetname">名称</entry>
+	<entry key="partssets.column.usedpartsname">部件</entry>
+	<entry key="partssets.column.default.width">50</entry>
+	<entry key="partssets.column.preset.width">50</entry>
+	<entry key="partssets.column.partssetname.width">150</entry>
+	<entry key="partssets.column.usedpartsname.width">200</entry>
+
+	<entry key="panel.recommendations">相关链接</entry>
+	<entry key="recommendations.column.displayName">描述</entry>
+	<entry key="recommendations.column.url">URL</entry>
+	<entry key="recommendations.column.displayName.width">200</entry>
+	<entry key="recommendations.column.url.width">200</entry>
+	<entry key="recommendations.add.caption">增加</entry>
+	<entry key="recommendations.delete.caption">移除</entry>
+	<entry key="recommendations.moveup.caption">向上</entry>
+	<entry key="recommendations.movedown.caption">向下</entry>
+
+</properties>

@@ -1,0 +1,78 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>appConfig.xml</comment>
+<!--  だれか翻訳助けて Could someone please translate this.-->
+
+<entry key="title">アプリケーションの設定</entry>
+<entry key="btn.apply">更新</entry>
+<entry key="btn.cancel">キャンセル</entry>
+<entry key="chk.askForCharactersDir">起動時にデータフォルダを選択する.</entry>
+<entry key="column.key">プロパティ名</entry>
+<entry key="column.value">設定値</entry>
+<entry key="column.key.width">200</entry>
+<entry key="column.value.width">100</entry>
+<entry key="confirm.close.caption">確認</entry>
+<entry key="confirm.close">編集を破棄しますか?</entry>
+<entry key="error.caption">エラー</entry>
+<entry key="error.message">不備があります。修正してください。</entry>
+<entry key="caution">設定を変更した場合、アプリケーションの再起動が必要です。</entry>
+<entry key="table.caption">設定</entry>
+
+<entry key="btn.setupLocalization">言語のカスタマイズ</entry>
+<entry key="setupLocalization"><![CDATA[言語リソースを展開します。
+既にファイルが存在する場合は上書きされます。]]></entry>
+<entry key="confirm.setupLocalization.caption">確認</entry>
+
+<entry key="compressionQuality">01;JPEG圧縮時のクオリティ(1が最大、0.1が最小)</entry>
+<entry key="enablePNGSupportForWindows">02;クリップボードの透過サポートを有効にする.(Windows/OSX)</entry>
+<entry key="zipNameEncoding">03;ZIPファイルに格納されているファイル名のエンコーディング(csWindows31Jが標準)</entry>
+<entry key="partsColorGroupPattern">04;パーツ名からカラーグループを判定するパターン(正規表現)(@がカラーグループ名の場所になります.)</entry>
+<entry key="enableAutoShrinkPanel">05;自動的にパーツ選択パネルを縮小する.</entry>
+
+<entry key="mainFrameMaxWidth">10;プレビューの初期表示の最大幅</entry>
+<entry key="mainFrameMaxHeight">11;プレビューの初期表示の最大高さ</entry>
+<entry key="enableRenderingHints">12;レンダリングヒントを使用する</entry>
+<entry key="enableInterpolationBicubic">13;拡大時にバイキュービック方式による最適化を使用する.</entry>
+<entry key="renderingOptimizeThresholdForNormal">14;表示最適化を適用するズームの閾値(通常モード)(0は常に無効)</entry>
+<entry key="renderingOptimizeThresholdForCheck">15;表示最適化を適用するズームの閾値(チェックモード)(0は常に無効)</entry>
+<entry key="predefinedZoomRanges">16;ズーム倍率の選択候補(カンマ区切り)</entry>
+<entry key="enableZoomPanel">17;ズームパネルを表示する.</entry>
+<entry key="zoomPanelActivationArea">18;ズームパネルをアクティブにする範囲(0で常に無効)</entry>
+<entry key="wheelScrollUnit">19;ホイールによるスクロールの単位</entry>
+<entry key="enableOffscreenWallpaper">1A;壁紙をオフスクリーンで描画する.</entry>
+<entry key="offscreenWallpaperSize">1B;オフスクリーンの既定サイズ</entry>
+
+<entry key="enableAutoColorChange">20;カラー変更時、自動的にプレビューに適用する.</entry>
+<entry key="notDisableLayerTab">21;カラーダイアログで存在しないレイヤーをディセーブルにしない.</entry>
+
+<entry key="enableDirWatch">31;フォルダ監視の有効・無効</entry>
+<entry key="disableWatchDirIfNotWritable">32;フォルダに書き込み権限がない場合は監視しない</entry>
+<entry key="dirWatchInterval">33;フォルダの監視間隔(mSec)</entry>
+<entry key="noRemoveLog">34;正常時でもログを終了時に消去しない。</entry>
+<entry key="purgeLogDays">35;起動時に古いログを消去するまでの日数。(0の場合は削除しない)</entry>
+<entry key="informationDialogOpenMethod">36;情報ダイアログのアクションを「開く」にする。(false時は「編集」)</entry>
+
+<entry key="selectedItemBgColor">50;アイテム選択行(フォーカス行)の背景色</entry>
+<entry key="exportPresetWarningsForegroundColor">51;パーツセットのエクスポート時の警告色</entry>
+<entry key="checkedItemBgColor">52;アイテム選択(チェック行)の背景色</entry>
+<entry key="sampleImageBgColor">53;サンプルピクチャの背景色</entry>
+<entry key="defaultImageBgColor">54;プレビューの背景色(デフォルト)</entry>
+<entry key="invalidBgColor">55;不正行の背景色</entry>
+<entry key="gridColor">56;グリッド(罫線)の色</entry>
+<entry key="authorEditConflictBgColor">57;パーツ作者入力で複数作者選択時の入力ボックスの背景色</entry>
+<entry key="selectPanelTitleColor">58;パーツ選択パネルのホバー色</entry>
+<entry key="defaultFontSize">59;デフォルトのフォントサイズ</entry>
+<entry key="fontPriority">5a;優先するフォントファミリー名(カンマ区切り)</entry>
+
+<entry key="jarTransferBufferSize">90;JARファイル用バッファサイズ</entry>
+<entry key="fileTransferBufferSize">91;ファイル転送用バッファサイズ</entry>
+
+<entry key="drawGridMask">A0;グリッドを描画する確認モードのビットマスク(0-3, 0は無効にする場合)</entry>
+<entry key="previewGridColor">A1;プレビュー画面のグリッドカラー(ARGB)</entry>
+<entry key="previewGridSize">A2;プレビュー画面のグリッドサイズ</entry>
+<entry key="previewUnfilledSpaceForCheckMode">A3;チェックモード時の余白</entry>
+<entry key="enableCheckInfoTooltip">A4;チェックモードの情報ツールチップの表示有無</entry>
+
+<entry key="randomChooserMaxHistory">B0;パーツのランダム選択の最大履歴数</entry>
+
+</properties>
