@@ -1,0 +1,56 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="windowWidth">500</entry>
+	<entry key="windowHeight">500</entry>
+	<entry key="title">Profile Selector</entry>
+	<entry key="profile.new">New</entry>
+	<entry key="profile.copy">Copy Structure</entry>
+	<entry key="profile.edit">Edit</entry>
+	<entry key="profile.edit.readonly">View</entry>
+	<entry key="profile.remove">Remove</entry>
+	<entry key="profile.browse">Browse</entry>
+	<entry key="profile.import">Import</entry>
+	<entry key="profile.export">Export</entry>
+	<entry key="profile.template">Create Template</entry>
+	<entry key="profileNew.chooseTemplate.title">Choose a Character Data Template</entry>
+	<entry key="profileNew.chooseTemplate.combo.width">300</entry>
+	<entry key="description">Description</entry>
+	<entry key="profiles">Profiles</entry>
+	<entry key="sample-image">Sample</entry>
+	<entry key="dividerLocation">300</entry>
+	<entry key="btn.select">Open</entry>
+	<entry key="btn.cancel">Cancel</entry>
+	<entry key="dropHere">dropHere</entry>
+	<entry key="nopicture">No Picture</entry>
+	<entry key="samplepicture.cut">Cut</entry>
+	<entry key="samplepicture.paste">Paste</entry>
+	<entry key="profile.remove.confirm">ARE YOU SURE YOU WANT TO DELETE {0}?</entry>
+	<entry key="profile.remove.force">Delete completely.</entry>
+	<entry key="confirm.remove">CONFIRM</entry>
+	<entry key="profile.remove.cannot">can not delete this profile.</entry>
+	<entry key="profile.opend"> (Opened)</entry>
+	<entry key="profile.noteditable"> (no edit)</entry>
+	<entry key="confirmUpdateProfile">Select profile</entry>
+	<entry key="importToUpdateProfile">Import to the selected profile.</entry>
+	<entry key="importToCreateProfile">Import to the new profile.</entry>
+
+	<entry key="profile.column.name">Name</entry>
+	<entry key="profile.column.id">ID</entry>
+	<entry key="profile.column.revision">Revision</entry>
+	<entry key="profile.column.canvasSize">Size</entry>
+	<entry key="profile.column.description">Description</entry>
+	<entry key="profile.column.author">Author</entry>
+	<entry key="profile.column.location">Location</entry>
+	<entry key="profile.column.name.width">200</entry>
+	<entry key="profile.column.id.width">100</entry>
+	<entry key="profile.column.revision.width">100</entry>
+	<entry key="profile.column.canvasSize.width">80</entry>
+	<entry key="profile.column.description.width">300</entry>
+	<entry key="profile.column.author.width">150</entry>
+	<entry key="profile.column.location.width">300</entry>
+
+	<entry key="inputTemplateName">Template Name</entry>
+	<entry key="confirm">Confirm</entry>
+	<entry key="confirmOverwrite"><![CDATA[file already exists.
+Do you want to replace it?]]></entry>
+</properties>

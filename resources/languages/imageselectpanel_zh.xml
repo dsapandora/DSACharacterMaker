@@ -1,0 +1,10 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="tooltip.shrink">缩小</entry>
+	<entry key="tooltip.expand">放大</entry>
+	<entry key="tooltip.color">打开颜色窗口</entry>
+	<entry key="tooltip.up">置于下一图层</entry>
+	<entry key="tooltip.down">置于上一图层</entry>
+	<entry key="tooltip.sort">按名称排序</entry>
+	<entry key="popupmenu.deselectall">全部取消</entry>
+</properties>

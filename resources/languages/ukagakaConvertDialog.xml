@@ -1,0 +1,11 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+<entry key="title">Export for Ukagaka (PNG/PNA)</entry>
+<entry key="btn.cancel">Cancel</entry>
+<entry key="btn.save">Save</entry>
+<entry key="preview">Preview</entry>
+<entry key="radio.auto">Auto</entry>
+<entry key="radio.manual">Manual</entry>
+<entry key="chk.overwriteOriginalFile">Overwrite original file</entry>
+<entry key="caption.chooseTransparentColorKey">Transparent color key</entry>
+</properties>

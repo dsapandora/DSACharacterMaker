@@ -1,0 +1,5 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+<entry key="btn.chooseColorKey">选择颜色</entry>
+<entry key="caption.chooseColorKey">选择颜色</entry>
+</properties>

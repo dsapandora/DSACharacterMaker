@@ -1,3 +1,8 @@
+/characters
+/docs
+/dist
+/lib
+/bin
 *.class
 
 # Mobile Tools for Java (J2ME)

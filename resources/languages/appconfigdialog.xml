@@ -1,0 +1,78 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>appConfig.xml</comment>
+<!--  だれか翻訳助けて Could someone please translate this.-->
+
+<entry key="title">Application Configurations</entry>
+<entry key="btn.apply">Apply</entry>
+<entry key="btn.cancel">Cancel</entry>
+<entry key="chk.askForCharactersDir">Ask the data directory during startup.</entry>
+<entry key="column.key">Key</entry>
+<entry key="column.value">Value</entry>
+<entry key="column.key.width">200</entry>
+<entry key="column.value.width">100</entry>
+<entry key="confirm.close.caption">Confirm</entry>
+<entry key="confirm.close">Are you sure want to close?</entry>
+<entry key="error.caption">Error</entry>
+<entry key="error.message">Please correct incompleteness.</entry>
+<entry key="caution">Change to property needs an application restart.</entry>
+<entry key="table.caption">Settings</entry>
+
+<entry key="btn.setupLocalization">Custom Localization</entry>
+<entry key="setupLocalization"><![CDATA[Deploying the language resources.
+If the file already exists, the file is overwritten.]]></entry>
+<entry key="confirm.setupLocalization.caption">Confirm</entry>
+
+<entry key="compressionQuality">01;Compression Quality</entry>
+<entry key="enablePNGSupportForWindows">02;Use the transparency image in Clipboard.(Windows/OSX)</entry>
+<entry key="zipNameEncoding">03;ZIP File Encoding</entry>
+<entry key="partsColorGroupPattern">04;The judgment pattern of a color group.('@' is color group name)</entry>
+<entry key="enableAutoShrinkPanel">05;Auto shrink category panels</entry>
+
+<entry key="mainFrameMaxWidth">10;Preview Max-Width</entry>
+<entry key="mainFrameMaxHeight">11;Preview Max-Height</entry>
+<entry key="enableRenderingHints">12;Use rendering hints</entry>
+<entry key="enableInterpolationBicubic">13;Use Bicubic</entry>
+<entry key="renderingOptimizeThresholdForNormal">14;Threshold of zoom factor of the rendering optimization.(normal)</entry>
+<entry key="renderingOptimizeThresholdForCheck">15;Threshold of zoom factor of the rendering optimization.(check)</entry>
+<entry key="predefinedZoomRanges">16;Predefined zoom factors</entry>
+<entry key="enableZoomPanel">17;Enable zoom panel</entry>
+<entry key="zoomPanelActivationArea">18;Area where zoom is activated.</entry>
+<entry key="wheelScrollUnit">19;The unit of scrolling by a wheel</entry>
+<entry key="enableOffscreenWallpaper">1A;Draw Wallpaper by offscreen.</entry>
+<entry key="offscreenWallpaperSize">1B;Offscreen default size.</entry>
+
+<entry key="enableAutoColorChange">20;Auto Color Refresh</entry>
+<entry key="notDisableLayerTab">21;The layer not existing is not disabled in the color dialog.</entry>
+
+<entry key="enableDirWatch">31;Enable Watch Directory</entry>
+<entry key="disableWatchDirIfNotWritable">32;Disable Watch Directory If Not Writable</entry>
+<entry key="dirWatchInterval">33;Directory Watch Interval (mSec)</entry>
+<entry key="noRemoveLog">34;No Remove Log</entry>
+<entry key="purgeLogDays">35;a number in days until purge log</entry>
+<entry key="informationDialogOpenMethod">36;Information Dialog Open Mode</entry>
+
+<entry key="selectedItemBgColor">50;Selected Item's Background Color</entry>
+<entry key="exportPresetWarningsForegroundColor">51;Export Preset's Warnings Foreground Color</entry>
+<entry key="checkedItemBgColor">52;Checked Item Background Color</entry>
+<entry key="sampleImageBgColor">53;Sample Picture Background Color</entry>
+<entry key="defaultImageBgColor">54;Preview Background Color</entry>
+<entry key="invalidBgColor">55;Invalid Cell's Background Color</entry>
+<entry key="gridColor">56;Grid Color</entry>
+<entry key="authorEditConflictBgColor">57;Author Conflict Background Color</entry>
+<entry key="selectPanelTitleColor">58;Parts Select Panel Hovering Color</entry>
+<entry key="defaultFontSize">59;Default Font Size</entry>
+<entry key="fontPriority">5a;Default Font Family Name</entry>
+
+<entry key="jarTransferBufferSize">90;Jar File Buffer</entry>
+<entry key="fileTransferBufferSize">91;File Buffer</entry>
+
+<entry key="drawGridMask">A0;Draw grid on preview</entry>
+<entry key="previewGridColor">A1;Grid color (ARGB)</entry>
+<entry key="previewGridSize">A2;Grid size</entry>
+<entry key="previewUnfilledSpaceForCheckMode">A3;Unfilled space (check-mode only)</entry>
+<entry key="enableCheckInfoTooltip">A4;Enable CheckInfo tooltip (check-mode only)</entry>
+
+<entry key="randomChooserMaxHistory">B0;Limit Of The Random Parts History</entry>
+
+</properties>

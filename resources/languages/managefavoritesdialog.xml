@@ -1,0 +1,11 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="manageFavorites">Manage favorites</entry>
+	<entry key="select">Select</entry>
+	<entry key="remove">Remove</entry>
+	<entry key="rename">Rename</entry>
+	<entry key="close">Close</entry>
+	<entry key="inputName">Input the Favorite's name</entry>
+	<entry key="favorite.remove.confirm">ARE YOU SURE YOU WANT TO REMOVE THE SELECTED FAVORITES?</entry>
+	<entry key="confirm.remove">CONFIRM</entry>
+</properties>

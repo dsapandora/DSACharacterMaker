@@ -1,0 +1,208 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="menu.file.text">File</entry>
+	<entry key="menu.file.mnemonic">F</entry>
+	<entry key="menu.file.mnemonicDisp"></entry>
+	<entry key="menu.file.ignoreMacOSX">false</entry>
+
+	<entry key="menu.edit.text">Edit</entry>
+	<entry key="menu.edit.mnemonic">E</entry>
+	<entry key="menu.edit.mnemonicDisp"></entry>
+	<entry key="menu.edit.ignoreMacOSX">false</entry>
+
+	<entry key="menu.favorite.text">Favorites</entry>
+	<entry key="menu.favorite.mnemonic">A</entry>
+	<entry key="menu.favorite.mnemonicDisp"></entry>
+	<entry key="menu.favorite.ignoreMacOSX">false</entry>
+
+	<entry key="menu.tool.text">Tool</entry>
+	<entry key="menu.tool.mnemonic">T</entry>
+	<entry key="menu.tool.mnemonicDisp"></entry>
+	<entry key="menu.tool.ignoreMacOSX">false</entry>
+
+	<entry key="menu.help.text">Help</entry>
+	<entry key="menu.help.mnemonic">H</entry>
+	<entry key="menu.help.mnemonicDisp"></entry>
+	<entry key="menu.help.ignoreMacOSX">false</entry>
+
+
+	<entry key="file.openProfile.text">Open Profile</entry>
+	<entry key="file.openProfile.mnemonic">O</entry>
+	<entry key="file.openProfile.mnemonicDisp"></entry>
+	<entry key="file.openProfile.ignoreMacOSX">false</entry>
+	<entry key="file.openProfile.shortcut-key">? N</entry>
+
+	<entry key="file.savePicture.text">Save the picture</entry>
+	<entry key="file.savePicture.mnemonic">S</entry>
+	<entry key="file.savePicture.mnemonicDisp"></entry>
+	<entry key="file.savePicture.ignoreMacOSX">false</entry>
+	<entry key="file.savePicture.shortcut-key">? S</entry>
+
+	<entry key="file.ukagaka.text">Ukagaka</entry>
+	<entry key="file.ukagaka.mnemonic">U</entry>
+	<entry key="file.ukagaka.mnemonicDisp"></entry>
+	<entry key="file.ukagaka.ignoreMacOSX">false</entry>
+
+	<entry key="file.saveAsUkagaka.text">Save as Ukagaka</entry>
+	<entry key="file.saveAsUkagaka.mnemonic">S</entry>
+	<entry key="file.saveAsUkagaka.mnemonicDisp"></entry>
+	<entry key="file.saveAsUkagaka.ignoreMacOSX">false</entry>
+	<entry key="file.saveAsUkagaka.shortcut-key">? alt S</entry>
+
+	<entry key="file.convertUkagaka.text">Convert</entry>
+	<entry key="file.convertUkagaka.mnemonic">C</entry>
+	<entry key="file.convertUkagaka.mnemonicDisp"></entry>
+	<entry key="file.convertUkagaka.ignoreMacOSX">false</entry>
+
+	<entry key="file.opendir.text">Browse this parts data</entry>
+	<entry key="file.opendir.mnemonic">B</entry>
+	<entry key="file.opendir.mnemonicDisp"></entry>
+	<entry key="file.opendir.ignoreMacOSX">false</entry>
+	<entry key="file.opendir.shortcut-key">? D</entry>
+
+	<entry key="file.editprofile.text">Edit this profile</entry>
+	<entry key="file.editprofile.mnemonic">E</entry>
+	<entry key="file.editprofile.mnemonicDisp"></entry>
+	<entry key="file.editprofile.ignoreMacOSX">false</entry>
+
+	<entry key="file.manageParts.text">Manage the Parts Collection</entry>
+	<entry key="file.manageParts.mnemonic">M</entry>
+	<entry key="file.manageParts.mnemonicDisp"></entry>
+	<entry key="file.manageParts.ignoreMacOSX">false</entry>
+	<entry key="file.manageParts.shortcut-key">? P</entry>
+
+	<entry key="file.import.text">Import</entry>
+	<entry key="file.import.mnemonic">I</entry>
+	<entry key="file.import.mnemonicDisp"></entry>
+	<entry key="file.import.ignoreMacOSX">false</entry>
+
+	<entry key="file.importMe.text">Import to this profile</entry>
+	<entry key="file.importMe.mnemonic">I</entry>
+	<entry key="file.importMe.mnemonicDisp"></entry>
+	<entry key="file.importMe.ignoreMacOSX">false</entry>
+
+	<entry key="file.importNew.text">Create New Profile</entry>
+	<entry key="file.importNew.mnemonic">N</entry>
+	<entry key="file.importNew.mnemonicDisp"></entry>
+	<entry key="file.importNew.ignoreMacOSX">false</entry>
+
+	<entry key="file.export.text">Export</entry>
+	<entry key="file.export.mnemonic">E</entry>
+	<entry key="file.export.mnemonicDisp"></entry>
+	<entry key="file.export.ignoreMacOSX">false</entry>
+
+	<entry key="file.preferences.text">Preference</entry>
+	<entry key="file.preferences.mnemonic">C</entry>
+	<entry key="file.preferences.mnemonicDisp"></entry>
+	<entry key="file.preferences.ignoreMacOSX">true</entry>
+
+	<entry key="file.closeProfile.text">Close profile</entry>
+	<entry key="file.closeProfile.mnemonic">X</entry>
+	<entry key="file.closeProfile.mnemonicDisp"></entry>
+	<entry key="file.closeProfile.ignoreMacOSX">false</entry>
+	<entry key="file.closeProfile.shortcut-key">? W</entry>
+
+	<entry key="edit.search.text">Find</entry>
+	<entry key="edit.search.mnemonic">F</entry>
+	<entry key="edit.search.mnemonicDisp"></entry>
+	<entry key="edit.search.ignoreMacOSX">false</entry>
+	<entry key="edit.search.shortcut-key">? F</entry>
+
+	<entry key="edit.copy.text">Copy to the clipboard</entry>
+	<entry key="edit.copy.mnemonic">C</entry>
+	<entry key="edit.copy.mnemonicDisp"></entry>
+	<entry key="edit.copy.ignoreMacOSX">false</entry>
+	<entry key="edit.copy.shortcut-key">control C</entry>
+	
+	<entry key="edit.flipHorizontal.text">Flip Horizontal</entry>
+	<entry key="edit.flipHorizontal.mnemonic">H</entry>
+	<entry key="edit.flipHorizontal.mnemonicDisp"></entry>
+	<entry key="edit.flipHorizontal.ignoreMacOSX">false</entry>
+
+	<entry key="edit.resetcolor.text">Reset Colors</entry>
+	<entry key="edit.resetcolor.mnemonic">R</entry>
+	<entry key="edit.resetcolor.mnemonicDisp"></entry>
+	<entry key="edit.resetcolor.ignoreMacOSX">false</entry>
+	<entry key="edit.resetcolor.shortcut-key">? R</entry>
+
+	<entry key="edit.setDefaultPicture.text">Set As Sample picture</entry>
+	<entry key="edit.setDefaultPicture.mnemonic">P</entry>
+	<entry key="edit.setDefaultPicture.mnemonicDisp"></entry>
+	<entry key="edit.setDefaultPicture.ignoreMacOSX">false</entry>
+
+	<entry key="edit.information.text">Information</entry>
+	<entry key="edit.information.mnemonic">I</entry>
+	<entry key="edit.information.mnemonicDisp"></entry>
+	<entry key="edit.information.ignoreMacOSX">false</entry>
+	<entry key="edit.information.shortcut-key">? I</entry>
+
+	<entry key="edit.deselectall.text">Deselect all</entry>
+	<entry key="edit.deselectall.ignoreMacOSX">false</entry>
+
+	<entry key="edit.deselectparts.text">All category is Deselectable</entry>
+	<entry key="edit.deselectparts.ignoreMacOSX">false</entry>
+
+	<entry key="edit.enableAutoShrink.text">Auto shrink category panels</entry>
+	<entry key="edit.enableAutoShrink.ignoreMacOSX">false</entry>
+	
+	<entry key="edit.enableZoomBox.text">Zoom</entry>
+	<entry key="edit.enableZoomBox.mnemonic">Z</entry>
+	<entry key="edit.enableZoomBox.mnemonicDisp"></entry>
+	<entry key="edit.enableZoomBox.ignoreMacOSX">false</entry>
+
+	<entry key="edit.changeBgColor.text">Background color</entry>
+	<entry key="edit.changeBgColor.mnemonic">B</entry>
+	<entry key="edit.changeBgColor.mnemonicDisp"></entry>
+	<entry key="edit.changeBgColor.ignoreMacOSX">false</entry>
+
+	<entry key="edit.changeWallpaper.text">Background Setup</entry>
+	<entry key="edit.changeWallpaper.mnemonic">W</entry>
+	<entry key="edit.changeWallpaper.mnemonicDisp"></entry>
+	<entry key="edit.changeWallpaper.ignoreMacOSX">false</entry>
+
+
+	<entry key="favorite.register.text">Add Favorite</entry>
+	<entry key="favorite.register.mnemonic">A</entry>
+	<entry key="favorite.register.mnemonicDisp"></entry>
+	<entry key="favorite.register.ignoreMacOSX">false</entry>
+	<entry key="favorite.register.shortcut-key">? B</entry>
+
+	<entry key="favorite.manage.text">Manage Favorite</entry>
+	<entry key="favorite.manage.mnemonic">M</entry>
+	<entry key="favorite.manage.mnemonicDisp"></entry>
+	<entry key="favorite.manage.ignoreMacOSX">false</entry>
+	<entry key="favorite.manage.shortcut-key">? M</entry>
+
+
+	<entry key="tool.random.text">Random</entry>
+	<entry key="tool.random.mnemonic">R</entry>
+	<entry key="tool.random.mnemonicDisp"></entry>
+	<entry key="tool.random.ignoreMacOSX">false</entry>
+
+
+	<entry key="help.help.text">Help</entry>
+	<entry key="help.help.mnemonic">H</entry>
+	<entry key="help.help.mnemonicDisp"></entry>
+	<entry key="help.help.ignoreMacOSX">false</entry>
+
+	<entry key="help.bugreport.text">Report Bugs</entry>
+	<entry key="help.bugreport.mnemonic">R</entry>
+	<entry key="help.bugreport.mnemonicDisp"></entry>
+	<entry key="help.bugreport.ignoreMacOSX">false</entry>
+
+	<entry key="help.forum.text">Forum</entry>
+	<entry key="help.forum.mnemonic">F</entry>
+	<entry key="help.forum.mnemonicDisp"></entry>
+	<entry key="help.bugreport.ignoreMacOSX">false</entry>
+
+	<entry key="help.about.text">About</entry>
+	<entry key="help.about.mnemonic">A</entry>
+	<entry key="help.about.mnemonicDisp"></entry>
+	<entry key="help.about.ignoreMacOSX">true</entry>
+
+	<entry key="help.recommendations.text">Recommended link</entry>
+	<entry key="help.recommendations.mnemonic"></entry>
+	<entry key="help.recommendations.mnemonicDisp"></entry>
+	<entry key="help.recommendations.ignoreMacOSX">false</entry>
+
+</properties>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="CharacterManaJ" default="makeExecutableJar">
+	<description>CharacterManaJ</description>
+
+	<!-- 出力するファイル名 -->
+	<property name="appName" value="CharacterManaJ.app"/>
+	<property name="jarName" value="CharacterManaJ.jar"/>
+	<property name="distdir" value="dist"/>
+
+	<!-- ビルド日時とバージョン、ベンダー -->
+	<property file="resources/version.properties"/>
+	<tstamp prefix="build-info">
+		<format property="current-date" pattern="yyyy-MM-dd" locale="en" />
+		<format property="current-time" pattern="hh:mm:ss a z" locale="en" />
+	</tstamp>
+
+	<!-- Mac環境でのビルドか? -->
+	<condition property="isMacOSX">
+		<and>
+			<os family="mac"/>
+			<os family="unix"/>
+		</and>
+	</condition>
+
+	<!-- launch4jの設定 -->
+	<property name="launch4j.dir" location="C:/Java/Launch4j" />
+
+	<!-- デフォルトのターゲット、JARファイルを作成する -->
+	<target name="makeExecutableJar" description="makejar">
+		<delete dir="work"/>
+		<mkdir dir="work"/>
+		<!-- J2SE5以降をターゲットにコンパイルする。(Tiger/Leopard on PPCのため)
+		     JDK6のAppleExtentionsでは非推奨になっているものがあるため警告がでます。
+		 -->
+		<javac
+    		target="1.5"
+    		destdir="work"
+    		srcdir="src"
+    		encoding="UTF-8"
+    		debug="on"
+    		includeantruntime="false">
+			<classpath>
+				<fileset dir="extlib">
+					<include name="**/*.jar"/>
+				</fileset>
+			</classpath>
+			<compilerarg value="-Xlint:deprecation" />
+			<compilerarg value="-Xlint:unchecked" />
+		</javac>
+
+		<!-- リソースをコピーする -->
+		<copy todir="work">
+			<fileset dir="resources">
+				<exclude name="**/*.java"/>
+			</fileset>
+		</copy>
+
+		<!-- ソース上のリソースをコピーする -->
+		<copy todir="work">
+			<fileset dir="src">
+				<exclude name="**/*.java"/>
+			</fileset>
+		</copy>
+
+		<!-- JARを作成する -->
+		<jar jarfile="${distdir}/CharacterManaJ.jar"
+			 basedir="work"
+			 index="true">
+			<manifest>
+				<attribute name="Main-Class" value="charactermanaj.CharacterManaJ" />
+				<!-- スプラッシュ画像 -->
+				<attribute name="Splashscreen-Image" value="splash.png"/>
+				<!-- バージョン情報とか -->
+				<attribute name="Built-By" value="${vendor}" />
+				<attribute name="Built-On" value="${build-info.current-date}" />
+				<attribute name="Built-At" value="${build-info.current-time}" />
+				<attribute name="Specification-Title" value="CharacterManaJ" />
+				<attribute name="Specification-Version" value="${specification_version}" />
+				<attribute name="Specification-Vendor" value="${vendor}" />
+				<attribute name="Implementation-Title" value="CharacterManaJ ${specification_version} (${implements_version})" />
+				<attribute name="Implementation-Version" value="${implements_version} ${build-info.current-date}" />
+				<attribute name="Implementation-Vendor" value="${vendor}" />
+			</manifest>
+		</jar>
+		<delete dir="work"/>
+	</target>
+
+	<!-- Launch4jによるexeの作成 -->
+	<taskdef name="launch4j"
+		classname="net.sf.launch4j.ant.Launch4jTask"
+		classpath="${launch4j.dir}/launch4j.jar:${launch4j.dir}/lib/xstream.jar"/>
+	<target name="makeExe" description="コンパイルしてEXE化する" depends="makeExecutableJar">
+			<!-- launch4jによるexeへのラップ -->
+			<copy file="launch4j.xml" tofile="launch4j.xml.tmp"
+				filtering="true" overwrite="true">
+				<filterset>
+					<filter token="implements_version" value="${implements_version}"/>
+					<filter token="exe_file_version" value="${exe_file_version}"/>
+				</filterset>
+			</copy>
+			<launch4j configFile="launch4j.xml.tmp" />
+			<delete file="launch4j.xml.tmp"/>
+	</target>
+</project>

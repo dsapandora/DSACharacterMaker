@@ -1,0 +1,7 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+<entry key="default.lastUseSaveName">surface</entry>
+<entry key="confirm">Confirm</entry>
+<entry key="confirmOverwrite"><![CDATA[file already exists.
+Do you want to replace it?]]></entry>
+</properties>

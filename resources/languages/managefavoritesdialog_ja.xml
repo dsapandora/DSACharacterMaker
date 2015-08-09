@@ -1,0 +1,11 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="manageFavorites">お気に入りの管理</entry>
+	<entry key="select">選択する</entry>
+	<entry key="remove">削除する</entry>
+	<entry key="rename">名前を変更する</entry>
+	<entry key="close">閉じる</entry>
+	<entry key="inputName">お気に入りの名前を入力する</entry>
+	<entry key="favorite.remove.confirm">選択したお気に入りを消去してもよろしいですか？</entry>
+	<entry key="confirm.remove">確認</entry>
+</properties>

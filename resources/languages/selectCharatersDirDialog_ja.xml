@@ -1,0 +1,14 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+<entry key="title">キャラクターなんとかJ</entry>
+<entry key="caption">キャラクターデータを格納するフォルダを選択してください。</entry>
+<entry key="lbl.dir">フォルダ:</entry>
+<entry key="btn.ok">選択</entry>
+<entry key="btn.cancel">キャンセル</entry>
+<entry key="btn.chooseDir">参照</entry>
+<entry key="btn.clearRecentList">履歴のクリア</entry>
+<entry key="btn.clearWorkingSets">キャッシュのクリア</entry>
+<entry key="chk.doNotAskAgein">次回から、このフォルダを使用する.</entry>
+<entry key="confirm.clearWorkingSets">全てのキャッシュをクリアしてもよろしいですか？</entry>
+<entry key="confirm.clearWorkingSets.title">確認</entry>
+</properties>

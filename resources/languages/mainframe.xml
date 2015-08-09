@@ -1,0 +1,18 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="title">DSA Version Character Maker - </entry>
+	<entry key="defaultPartsSetTitle">no name</entry>
+	<entry key="help.url">http://charactermanaj.sourceforge.jp/help/0.9/</entry>
+	<entry key="help.show">Help Document is here.</entry>
+	<entry key="confirm">CONFIRM</entry>
+	<entry key="confirm.resetcolors">AER YOU SURE?</entry>
+	<entry key="chooseBgColor">Choose the background-color</entry>
+	<entry key="input.favorites">Favorites</entry>
+	<entry key="input.favoritesColorInfo">Include colors</entry>
+	<entry key="input.favoritesOverwrite">Overwrite</entry>
+
+	<entry key="help.reportbugs.description">Report bugs</entry>
+	<entry key="help.reportbugs.url">http://sourceforge.jp/projects/charactermanaj/ticket/</entry>
+	<entry key="help.forum.description">Forum</entry>
+	<entry key="help.forum.url">http://sourceforge.jp/projects/charactermanaj/forums/</entry>
+</properties>

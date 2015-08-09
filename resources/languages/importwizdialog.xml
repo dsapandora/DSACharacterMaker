@@ -1,0 +1,82 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="title.update">Import</entry>
+	<entry key="title.new">Import (new profile)</entry>
+	<entry key="complete">Complete</entry>
+	<entry key="btn.next">Next</entry>
+	<entry key="btn.prev">Previous</entry>
+	<entry key="btn.finish">Finish</entry>
+	<entry key="btn.cancel">Cancel</entry>
+	<entry key="browse">Browse</entry>
+	<entry key="importingArchiveFile">Import archived File (zip, cmj)</entry>
+	<entry key="importingDirectory">Import from Directory</entry>
+	<entry key="fileNotFound">File not found.</entry>
+	<entry key="directoryNotFound">Directory not found.</entry>
+
+	<entry key="confirm.close">Are you sure you want to cancel?</entry>
+	<entry key="confirm">Confirm</entry>
+
+	<entry key="basic.contentsSpec">Import contents</entry>
+	<entry key="basic.chk.presets">Presets/Favorites</entry>
+	<entry key="basic.chk.partsImages">Parts</entry>
+	<entry key="basic.chk.samplePicture">Sample picture</entry>
+	<entry key="basic.archiveInfo">Archive information</entry>
+	<entry key="basic.profileId">ID</entry>
+	<entry key="basic.profileRev">Rev.</entry>
+	<entry key="basic.profileName">Name</entry>
+	<entry key="author">Author</entry>
+	<entry key="description">Note</entry>
+	<entry key="basic.sampleImage">Sample picture</entry>
+	<entry key="appendDescription">Append this description to the profile.</entry>
+	
+	<entry key="noContents">No contents.</entry>
+	<entry key="notFormalArchive">This is not a formal archive, but may be containing some picture.</entry>
+	<entry key="unmatchedProfileId">Profile ID mismatch. id="{0}"</entry>
+	<entry key="unmatchedProfileRev">Profile REV mismatch. rev="{0}"</entry>
+
+	<entry key="parts.title">Import parts</entry>
+	<entry key="parts.btn.selectAll">select All</entry>
+	<entry key="parts.btn.deselectAll">deselect All</entry>
+	<entry key="parts.btn.sort">Sort</entry>
+	<entry key="parts.btn.sortByTimestamp">Sort by timestamp</entry>
+
+	<entry key="parts.popup.check">Check</entry>
+	<entry key="parts.popup.uncheck">Uncheck</entry>
+
+	<entry key="parts.column.check">Checked</entry>
+	<entry key="parts.column.partsname">Parts name</entry>
+	<entry key="parts.column.category">Category</entry>
+	<entry key="parts.column.imagesize">Image size</entry>
+	<entry key="parts.column.alpha">Transparency</entry>
+	<entry key="parts.column.lastmodified">Last-Modified</entry>
+	<entry key="parts.column.org-lastmodified">Last-Modified on the current profile</entry>
+	<entry key="parts.column.author">Author</entry>
+	<entry key="parts.column.org-author">Author on the current profile</entry>
+	<entry key="parts.column.version">Version</entry>
+	<entry key="parts.column.org-version">Version on the current profile</entry>
+
+	<entry key="parts.column.check.size">50</entry>
+	<entry key="parts.column.partsname.size">100</entry>
+	<entry key="parts.column.category.size">80</entry>
+	<entry key="parts.column.imagesize.size">50</entry>
+	<entry key="parts.column.alpha.size">50</entry>
+	<entry key="parts.column.lastmodified.size">80</entry>
+	<entry key="parts.column.org-lastmodified.size">80</entry>
+	<entry key="parts.column.author.size">80</entry>
+	<entry key="parts.column.org-author.size">80</entry>
+	<entry key="parts.column.version.size">50</entry>
+	<entry key="parts.column.org-version.size">50</entry>
+
+	<entry key="preset.title">Import favorites</entry>
+	<entry key="preset.popup.selectUsedParts">Import used parts</entry>
+	<entry key="preset.column.check">Checked</entry>
+	<entry key="preset.column.name">Name</entry>
+	<entry key="preset.column.missings">Missing parts</entry>
+	<entry key="preset.column.check.size">50</entry>
+	<entry key="preset.column.name.size">100</entry>
+	<entry key="preset.column.missings.size">200</entry>
+	
+	<entry key="complete">Complete</entry>
+	
+</properties>
+

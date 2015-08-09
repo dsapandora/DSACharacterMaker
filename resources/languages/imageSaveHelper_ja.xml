@@ -1,0 +1,29 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+<entry key="confirm">確認</entry>
+<entry key="confirmOverwrite"><![CDATA[ファイルは既に存在します。
+上書きしてもよろしいですか？]]></entry>
+
+<entry key="ouputOption.caption">出力オプション</entry>
+
+<entry key="outputOption.jpeg.caption">JPEG</entry>
+<entry key="outputOption.jpeg.quality">品質</entry>
+
+<entry key="outputOption.zoom.caption">拡大・縮小</entry>
+<entry key="outputOption.zoom.factor">倍率</entry>
+<entry key="outputOption.zoom.renderingMode">モード</entry>
+
+<entry key="outputOption.picture">画像タイプ</entry>
+<entry key="outputOption.picture.type">タイプ</entry>
+<entry key="outputOption.picture.forceBgColor">常に背景色を使用する</entry>
+
+<entry key="outputOption.zoomRenderingType.NONE">補正なし</entry>
+<entry key="outputOption.zoomRenderingType.BILINER">バイリニア</entry>
+<entry key="outputOption.zoomRenderingType.BICUBIC">バイキュービック</entry>
+
+<entry key="outputOption.pictureMode.NORMAL">通常</entry>
+<entry key="outputOption.pictureMode.OPAQUE">透過なし</entry>
+<entry key="outputOption.pictureMode.GRAY">グレースケール</entry>
+<entry key="outputOption.pictureMode.ALPHA">アルファチャネル</entry>
+
+</properties>

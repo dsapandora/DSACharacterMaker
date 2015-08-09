@@ -1,0 +1,239 @@
+<xs:schema
+  targetNamespace="http://com.exmaple/charactermanaj"
+  xmlns="http://com.exmaple/charactermanaj"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xml="http://www.w3.org/XML/1998/namespace"
+  attributeFormDefault="qualified"
+  elementFormDefault="qualified">
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2001/xml.xsd"/>
+
+  <xs:simpleType name="tokenNotEmpty">
+  	<xs:annotation>
+  		<xs:documentation xml:lang="ja">空文字を許可しないトークンの定義</xs:documentation>
+  	</xs:annotation>
+    <xs:restriction base="xs:token">
+        <xs:minLength value="1"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="floatMax1">
+    <xs:restriction base="xs:float">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="1"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="floatMax1Round">
+    <xs:restriction base="xs:float">
+      <xs:minInclusive value="-1"/>
+      <xs:maxInclusive value="1"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="rgbvalue">
+  	<xs:annotation>
+  		<xs:documentation xml:lang="ja">RGB変換パラメータ</xs:documentation>
+  	</xs:annotation>
+    <xs:attribute name="offset" form="unqualified" type="xs:integer" use="required">
+      <xs:annotation>
+        <xs:documentation xml:lang="ja">オフセット</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="factor" form="unqualified" type="xs:float" use="required">
+      <xs:annotation>
+        <xs:documentation xml:lang="ja">倍率</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="gamma" form="unqualified" type="xs:float" use="required">
+      <xs:annotation>
+        <xs:documentation xml:lang="ja">ガンマ</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  
+  <xs:complexType name="hsbvalue">
+  	<xs:annotation>
+  		<xs:documentation xml:lang="ja">HSB変換パラメータ</xs:documentation>
+  	</xs:annotation>
+    <xs:attribute name="hue" form="unqualified" type="floatMax1Round" use="required"/>
+    <xs:attribute name="saturation" form="unqualified" type="floatMax1Round" use="required"/>
+    <xs:attribute name="brightness" form="unqualified" type="floatMax1Round" use="required"/>
+  </xs:complexType>
+  
+  <xs:simpleType name="rgbreplacetype">
+  	<xs:annotation>
+  		<xs:documentation xml:lang="ja">RGB置換タイプ</xs:documentation>
+  	</xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="NONE"/>
+      <xs:enumeration value="BLUE"/>
+      <xs:enumeration value="VIOLET"/>
+      <xs:enumeration value="RED"/>
+      <xs:enumeration value="YELLOW"/>
+      <xs:enumeration value="GREEN"/>
+      <xs:enumeration value="CYAN"/>
+      <xs:enumeration value="BLACK"/>
+      <xs:enumeration value="WHITE"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:complexType name="rgbreplacevalue">
+    <xs:attribute name="replace-type" form="unqualified" use="required" type="rgbreplacetype">
+      <xs:annotation>
+        <xs:documentation xml:lang="ja">RGB置換タイプ</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="gray" form="unqualified" type="floatMax1" use="required">
+      <xs:annotation>
+        <xs:documentation xml:lang="ja">淡色化(0でグレー化、1で淡色化なし)</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="presetsType">
+    <xs:annotation>
+      <xs:documentation xml:lang="ja">定義済みパーツ組み合わせ例(プリセット)の定義リスト、定義順に表示される。</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="preset" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation xml:lang="ja">定義済みパーツ組み合わせ例(プリセット)の定義</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="display-name" nillable="false" minOccurs="1" maxOccurs="unbounded">
+              <xs:annotation>
+                <xs:documentation xml:lang="ja">表示名、該当するlangがない場合は最初をデフォルトとする。</xs:documentation>
+              </xs:annotation>
+              <xs:complexType>
+                <xs:simpleContent>
+                  <xs:extension base="tokenNotEmpty">
+                    <xs:attribute ref="xml:lang" use="required"/>
+                  </xs:extension>
+                </xs:simpleContent>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="background-color" minOccurs="0" maxOccurs="1">
+              <xs:annotation>
+                <xs:documentation xml:lang="ja">背景色</xs:documentation>
+              </xs:annotation>
+              <xs:complexType>
+                <xs:attribute name="color" form="unqualified" use="required" type="xs:string"/>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="affine-transform-parameter" minOccurs="0" maxOccurs="1">
+              <xs:annotation>
+                <xs:documentation xml:lang="ja">アフィン変換用パラメータ、4または6つの要素からなるマトリックス</xs:documentation>
+              </xs:annotation>
+              <xs:simpleType>
+                <xs:list itemType="xs:double"/>
+              </xs:simpleType>
+            </xs:element>
+            <xs:element name="category" nillable="false" minOccurs="1" maxOccurs="unbounded">
+              <xs:annotation>
+                <xs:documentation xml:lang="ja">カテゴリごとのパーツ定義、パーツが空の場合は該当カテゴリは選択なし</xs:documentation>
+              </xs:annotation>
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="parts" nillable="false" minOccurs="0" maxOccurs="unbounded">
+                    <xs:annotation>
+                      <xs:documentation xml:lang="ja">パーツ</xs:documentation>
+                    </xs:annotation>
+                    <xs:complexType>
+                      <xs:sequence>
+                      	<xs:element name="color" nillable="false" minOccurs="0" maxOccurs="1">
+                          <xs:annotation>
+                            <xs:documentation xml:lang="ja">色定義(オプション)</xs:documentation>
+                          </xs:annotation>
+                          <xs:complexType>
+                          	<xs:sequence>
+                              <xs:element name="layer" nillable="false" minOccurs="1" maxOccurs="unbounded">
+                          	    <xs:complexType>
+                          		  <xs:sequence>
+                          		    <xs:element name="color-group" minOccurs="0" maxOccurs="1">
+                          		      <xs:complexType>
+                          		        <xs:attribute name="group" use="required" form="unqualified" type="tokenNotEmpty">
+                                          <xs:annotation>
+                          		            <xs:documentation xml:lang="ja">カラーグループ</xs:documentation>
+                          		          </xs:annotation>
+                          		        </xs:attribute>
+                          		        <xs:attribute name="synchronized" use="required" form="unqualified">
+                                          <xs:annotation>
+                          		            <xs:documentation xml:lang="ja">カラーグループの同期を行う</xs:documentation>
+                          		          </xs:annotation>
+                          		          <xs:simpleType>
+                          		            <xs:restriction base="xs:boolean">
+                          		              <xs:pattern value="true"/>
+                          		              <xs:pattern value="false"/>
+                          		            </xs:restriction>
+                          		          </xs:simpleType>
+                          		        </xs:attribute>
+                          		      </xs:complexType>
+                          		    </xs:element>
+                          		    <xs:element name="rgb" nillable="false" minOccurs="0" maxOccurs="1">
+                          		      <xs:annotation>
+                          		        <xs:documentation xml:lang="ja">RGB変換</xs:documentation>
+                          		      </xs:annotation>
+                          		      <xs:complexType>
+                          		        <xs:sequence>
+                          		          <xs:element name="red" type="rgbvalue"/>
+                          		          <xs:element name="green" type="rgbvalue"/>
+                          		          <xs:element name="blue" type="rgbvalue"/>
+                          		          <xs:element name="alpha" type="rgbvalue"/>
+                          		        </xs:sequence>
+                          		      </xs:complexType>
+                          		    </xs:element>
+                          		    <xs:element name="hsb" nillable="false" type="hsbvalue" minOccurs="0" maxOccurs="1">
+                          		      <xs:annotation>
+                          		        <xs:documentation xml:lang="ja">HSB変換</xs:documentation>
+                          		      </xs:annotation>
+                          		    </xs:element>
+                          		    <xs:element name="rgb-replace"  nillable="false" type="rgbreplacevalue" minOccurs="0" maxOccurs="1">
+                          		      <xs:annotation>
+                          		        <xs:documentation xml:lang="ja">RGB置換</xs:documentation>
+                          		      </xs:annotation>
+                          		    </xs:element>
+                                  </xs:sequence>
+                                  <xs:attribute name="refid" use="required" form="unqualified" type="tokenNotEmpty">
+                                    <xs:annotation>
+                                      <xs:documentation xml:lang="ja">レイヤー識別子</xs:documentation>
+                                    </xs:annotation>
+                                  </xs:attribute>
+                                </xs:complexType>
+                              </xs:element>
+                            </xs:sequence>
+                          </xs:complexType>
+                        </xs:element>
+                      </xs:sequence>
+                      <xs:attribute name="name" use="required" form="unqualified" type="tokenNotEmpty">
+                        <xs:annotation>
+                          <xs:documentation xml:lang="ja">パーツ名</xs:documentation>
+                        </xs:annotation>
+                      </xs:attribute>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+                <xs:attribute name="refid" use="required" form="unqualified" type="tokenNotEmpty">
+                  <xs:annotation>
+                    <xs:documentation xml:lang="ja">カテゴリの識別子</xs:documentation>
+                  </xs:annotation>
+                </xs:attribute>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+          <xs:attribute name="id" form="unqualified" type="tokenNotEmpty" use="required">
+            <xs:annotation>
+              <xs:documentation xml:lang="ja">定義済みパーツ組み合わせ例(プリセット)の識別子</xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="default-preset" form="unqualified" type="tokenNotEmpty" use="optional">
+      <xs:annotation>
+        <xs:documentation xml:lang="ja">デフォルトのプリセットを示す識別子</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+
+</xs:schema>

@@ -1,0 +1,25 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+<entry key="title">背景</entry>
+
+<entry key="group.wallpaper">壁纸</entry>
+<entry key="group.bgcolor">背景色</entry>
+
+<entry key="label.wallpaperImageAlpha">背景图不透明率</entry>
+
+<entry key="predefinedWallpaper.lattice_s">网格 (小)</entry>
+<entry key="predefinedWallpaper.lattice_l">网格 (大)</entry>
+
+<entry key="radio.none">无</entry>
+<entry key="radio.file">文件</entry>
+<entry key="radio.predefined">预设</entry>
+
+<entry key="btn.chooseFile">选择</entry>
+<entry key="btn.ok">确认</entry>
+<entry key="btn.cancel">取消</entry>
+
+<entry key="error.require.imageFile">需要图像文件</entry>
+<entry key="error.require.resource">需要预设图像</entry>
+<entry key="error.invalid.imageFile">文件不存在或无法读取</entry>
+
+</properties>

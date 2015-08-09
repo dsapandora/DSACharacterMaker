@@ -1,0 +1,5 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="dblclick.fit">双击填充</entry>
+	<entry key="dblclick.fullsize">双击查看完整图像</entry>
+</properties>

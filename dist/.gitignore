@@ -1,0 +1,8 @@
+/jre
+/java8macWithJRE
+/java6mac/CharacterManaJ.app/Contents/Resources/Java/CharacterManaJ.jar
+/java8mac/CharacterManaJ.app/Contents/Java/CharacterManaJ.jar
+*.dmg
+*.exe
+*.jar
+*.zip

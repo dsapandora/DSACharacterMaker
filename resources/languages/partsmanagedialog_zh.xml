@@ -1,0 +1,36 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="title">部件管理</entry>
+	<entry key="partslist">部件列表</entry>
+	<entry key="sortByName">按名称排序</entry>
+	<entry key="sortByAuthor">按作者排序</entry>
+	<entry key="sortByTimestamp">按最后更新排序</entry>
+	<entry key="applyAllLastModified">更新</entry>
+	<entry key="applyAllDownloadURL">批量输入下载地址</entry>
+	<entry key="applyAllVersion">批量输入版本</entry>
+	<entry key="author.info">作者信息</entry>
+	<entry key="author">作者:</entry>
+	<entry key="homepage">主页:</entry>
+	<entry key="open">打开</entry>
+	<entry key="cancel">取消</entry>
+	<entry key="update">更新</entry>
+	<entry key="confirm.authorConflict">有多个不同的作者被选中，确定要批量输入同一数值么?</entry>
+	<entry key="confirm">确认</entry>
+	<entry key="input.downloadURL">输入下载地址</entry>
+	<entry key="input.version">输入版本号</entry>
+	<entry key="confirm.cancel">确定要放弃编辑么?</entry>
+	<entry key="column.partsid">部件ID</entry>
+	<entry key="column.lastmodified">最后更新</entry>
+	<entry key="column.category">分类</entry>
+	<entry key="column.partsname">名称</entry>
+	<entry key="column.author">作者</entry>
+	<entry key="column.version">版本</entry>
+	<entry key="column.downloadURL">下载地址</entry>
+	<entry key="column.partsid.width">100</entry>
+	<entry key="column.lastmodified.width">80</entry>
+	<entry key="column.category.width">80</entry>
+	<entry key="column.partsname.width">100</entry>
+	<entry key="column.author.width">80</entry>
+	<entry key="column.version.width">50</entry>
+	<entry key="column.downloadURL.width">150</entry>
+</properties>

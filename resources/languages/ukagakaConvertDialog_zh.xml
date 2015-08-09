@@ -1,0 +1,11 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+<entry key="title">输出到伪春菜 (PNG/PNA)</entry>
+<entry key="btn.cancel">取消</entry>
+<entry key="btn.save">保存</entry>
+<entry key="preview">预览</entry>
+<entry key="radio.auto">自动</entry>
+<entry key="radio.manual">手动</entry>
+<entry key="chk.overwriteOriginalFile">覆盖原始文件</entry>
+<entry key="caption.chooseTransparentColorKey">选择透明颜色</entry>
+</properties>

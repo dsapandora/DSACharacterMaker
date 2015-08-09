@@ -1,0 +1,5 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<!-- 日本語環境の場合のフォントの指定 -->
+	<entry key="fontPriority">Lucida Grande, Meiryo, MS UI Gothic, MS Gothic</entry>
+</properties>

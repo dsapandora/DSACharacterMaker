@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema
+  targetNamespace="http://com.exmaple/charactermanaj"
+  xmlns="http://com.exmaple/charactermanaj"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xml="http://www.w3.org/XML/1998/namespace"
+  attributeFormDefault="qualified"
+  elementFormDefault="qualified">
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2001/xml.xsd"/>
+  <xs:include schemaLocation="character_inc.xsd"/>
+  <xs:element name="character">
+    <xs:annotation>
+      <xs:documentation xml:lang="ja">キャラクターデータの定義</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" nillable="false" minOccurs="1" maxOccurs="unbounded">
+          <xs:annotation>
+            <xs:documentation xml:lang="ja">キャラクターデータ名。該当するlangがなければ最初の定義をデフォルト値とする。</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="tokenNotEmpty">
+                 <xs:attribute ref="xml:lang" use="required" />
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="information" minOccurs="0" maxOccurs="1">
+          <xs:annotation>
+            <xs:documentation xml:lang="ja">備考</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="author" minOccurs="0" maxOccurs="unbounded" nillable="false">
+                <xs:annotation>
+                  <xs:documentation xml:lang="ja">作者名</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute ref="xml:lang" use="required" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="description" minOccurs="1" maxOccurs="unbounded" nillable="false">
+                <xs:annotation>
+                  <xs:documentation xml:lang="ja">説明文</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute ref="xml:lang" use="required" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+        <xs:element name="image-size">
+          <xs:annotation>
+            <xs:documentation xml:lang="ja">イメージのサイズ(幅と高さ)</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="width">
+                <xs:simpleType>
+                  <xs:restriction base="xs:unsignedInt">
+                    <xs:minExclusive value="0"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="height">
+                <xs:simpleType>
+                  <xs:restriction base="xs:unsignedInt">
+                    <xs:minExclusive value="0"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+        <xs:element name="settings" minOccurs="0" maxOccurs="1">
+          <xs:annotation>
+            <xs:documentation xml:lang="ja">雑多なプロパティのコレクション</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="entry" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                  <xs:documentation xml:lang="ja">雑多なプロパティ</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="key" form="unqualified" use="required" type="xs:string"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+        <xs:element name="categories">
+          <xs:annotation>
+            <xs:documentation xml:lang="ja">カテゴリの定義リスト、出現順で画面に表示される。</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="category" minOccurs="1" maxOccurs="unbounded">
+                <xs:annotation>
+                  <xs:documentation xml:lang="ja">カテゴリの定義</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="visible-rows" nillable="false" type="xs:positiveInteger">
+                      <xs:annotation>
+                        <xs:documentation xml:lang="ja">表示するパーツの行数(初期値)</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element name="display-name" nillable="false" minOccurs="1" maxOccurs="unbounded">
+                      <xs:annotation>
+                        <xs:documentation xml:lang="ja">カテゴリの表示名、該当するlangがない場合は最初のものをデフォルトとする。</xs:documentation>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="tokenNotEmpty">
+                            <xs:attribute ref="xml:lang" use="required"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="layers">
+                      <xs:annotation>
+                        <xs:documentation xml:lang="ja">パーツを構成するレイヤーの定義リスト</xs:documentation>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="layer" minOccurs="1" maxOccurs="unbounded">
+                            <xs:annotation>
+                              <xs:documentation xml:lang="ja">パーツを構成するレイヤーの定義</xs:documentation>
+                            </xs:annotation>
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="display-name" nillable="false" minOccurs="1" maxOccurs="unbounded">
+                                  <xs:annotation>
+                                    <xs:documentation xml:lang="ja">レイヤーの表示名、該当するlangがない場合は最初のものをデフォルトとする。</xs:documentation>
+                                  </xs:annotation>
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="tokenNotEmpty">
+                                        <xs:attribute ref="xml:lang" use="required"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="order" nillable="false" type="xs:integer">
+                                  <xs:annotation>
+                                    <xs:documentation xml:lang="ja">パーツ全体でレイヤーを重ね合わせる順序。</xs:documentation>
+                                  </xs:annotation>
+                                </xs:element>
+                                <xs:element name="colorGroup" minOccurs="0" maxOccurs="1">
+                                  <xs:annotation>
+                                    <xs:documentation xml:lang="ja">色設定を連動させるグループの指定(省略可)</xs:documentation>
+                                  </xs:annotation>
+                                  <xs:complexType>
+                                    <xs:attribute name="refid" form="unqualified" type="tokenNotEmpty" use="required">
+                                      <xs:annotation>
+                                        <xs:documentation xml:lang="ja">カラーグループID</xs:documentation>
+                                      </xs:annotation>
+                                    </xs:attribute>
+                                    <xs:attribute name="init-sync" form="unqualified" use="required">
+                                      <xs:annotation>
+                                        <xs:documentation xml:lang="ja">初期状態で連動させるか?</xs:documentation>
+                                      </xs:annotation>
+                                      <xs:simpleType>
+                                        <xs:restriction base="xs:boolean">
+                                          <xs:pattern value="true"/>
+                                          <xs:pattern value="false"/>
+                                        </xs:restriction>
+                                      </xs:simpleType>
+                                    </xs:attribute>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="dir" nillable="false" type="tokenNotEmpty">
+                                  <xs:annotation>
+                                    <xs:documentation xml:lang="ja">このレイヤーの画像を格納しているディレクトリ名</xs:documentation>
+                                  </xs:annotation>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="id" form="unqualified" type="tokenNotEmpty" use="required">
+                                <xs:annotation>
+                                  <xs:documentation xml:lang="ja">レイヤーの識別子</xs:documentation>
+                                </xs:annotation>
+                              </xs:attribute>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="id" form="unqualified" type="tokenNotEmpty" use="required">
+                    <xs:annotation>
+                      <xs:documentation xml:lang="ja">カテゴリーの識別子</xs:documentation>
+                    </xs:annotation>
+                  </xs:attribute>
+                  <xs:attribute name="multipleSelectable" form="unqualified" use="required">
+                    <xs:annotation>
+                      <xs:documentation xml:lang="ja">このカテゴリで複数のパーツが選択可能であるか?</xs:documentation>
+                    </xs:annotation>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:boolean">
+                        <xs:pattern value="true"/>
+                        <xs:pattern value="false"/>
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:attribute>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="colorGroups" minOccurs="0" maxOccurs="1">
+          <xs:annotation>
+            <xs:documentation xml:lang="ja">カラーグループの定義リスト</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="colorGroup" minOccurs="1" maxOccurs="unbounded">
+                <xs:annotation>
+                  <xs:documentation xml:lang="ja">カラーグループの定義</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="display-name" nillable="false" minOccurs="1" maxOccurs="unbounded">
+                      <xs:annotation>
+                        <xs:documentation xml:lang="ja">カラーグループの表示名。該当するlangがない場合は最初をデフォルトとする。</xs:documentation>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="tokenNotEmpty">
+                            <xs:attribute ref="xml:lang" use="required"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="id" form="unqualified" type="tokenNotEmpty" use="required">
+                    <xs:annotation>
+                      <xs:documentation xml:lang="ja">カラーグループの識別子</xs:documentation>
+                    </xs:annotation>
+                  </xs:attribute>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="presets" minOccurs="0" maxOccurs="1" type="presetsType">
+          <xs:annotation>
+            <xs:documentation xml:lang="ja">定義済みパーツ組み合わせ例(プリセット)の定義リスト、定義順に表示される。</xs:documentation>
+          </xs:annotation>
+		</xs:element>
+
+      </xs:sequence>
+      <xs:attribute name="id" form="unqualified" type="tokenNotEmpty" use="required"/>
+      <xs:attribute name="rev" form="unqualified" type="tokenNotEmpty" use="required"/>
+      <xs:attribute name="version" form="unqualified" type="tokenNotEmpty" use="required">
+        <xs:annotation>
+          <xs:documentation xml:lang="ja">このXMLのバージョン番号、1.0固定。</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+    </xs:complexType>
+
+    <xs:key name="category-id">
+      <xs:selector xpath="categories/category"/>
+      <xs:field xpath="@id"/>
+    </xs:key>
+    <xs:key name="layer-id">
+      <xs:selector xpath="categories/category/layers/layer"/>
+      <xs:field xpath="@id"/>
+    </xs:key>
+    <xs:key name="colorGroup-id">
+      <xs:selector xpath="colorGroups/colorGroup"/>
+      <xs:field xpath="@id"/>
+    </xs:key>
+  </xs:element>
+</xs:schema>

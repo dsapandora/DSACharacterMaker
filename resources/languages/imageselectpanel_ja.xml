@@ -1,0 +1,10 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="tooltip.shrink">縮小する</entry>
+	<entry key="tooltip.expand">拡大する</entry>
+	<entry key="tooltip.color">色ダイアログを開く</entry>
+	<entry key="tooltip.up">上へ</entry>
+	<entry key="tooltip.down">下へ</entry>
+	<entry key="tooltip.sort">並び替え</entry>
+	<entry key="popupmenu.deselectall">全て選択解除する</entry>
+</properties>

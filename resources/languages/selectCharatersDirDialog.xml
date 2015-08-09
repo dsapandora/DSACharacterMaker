@@ -1,0 +1,16 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+<entry key="width">550</entry>
+<entry key="title">CharacterManaJ</entry>
+<entry key="caption">Select a workspace</entry>
+<entry key="lbl.dir">Workspace:</entry>
+<entry key="btn.ok">OK</entry>
+<entry key="btn.cancel">Cancel</entry>
+<entry key="btn.chooseDir">Browse</entry>
+<entry key="btn.clearRecentList">Clear recent list</entry>
+<entry key="btn.clearWorkingSets">Clear cache</entry>
+<entry key="chk.doNotAskAgein">Use this as the default and do not ask again.</entry>
+<entry key="confirm.clearWorkingSets">Are you sure you want to delete all cache?</entry>
+<entry key="confirm.clearWorkingSets.title">CONFIRM</entry>
+</properties>
+

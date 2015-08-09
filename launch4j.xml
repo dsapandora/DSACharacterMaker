@@ -1,0 +1,36 @@
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>dist\CharacterManaJ.jar</jar>
+  <outfile>dist\charactermanaj.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir></chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <customProcName>false</customProcName>
+  <stayAlive>false</stayAlive>
+  <manifest></manifest>
+  <icon>icon.ico</icon>
+  <jre>
+    <path>jre</path>
+    <minVersion>1.5.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <initialHeapSize>64</initialHeapSize>
+    <maxHeapSize>128</maxHeapSize>
+  </jre>
+  <versionInfo>
+    <fileVersion>@exe_file_version@</fileVersion>
+    <txtFileVersion>@implements_version@</txtFileVersion>
+    <fileDescription>CharacterManaJ</fileDescription>
+    <copyright>https://osdn.jp/projects/charactermanaj/simple/</copyright>
+    <productVersion>@exe_file_version@</productVersion>
+    <txtProductVersion>@implements_version@</txtProductVersion>
+    <productName>CharacterManaJ</productName>
+    <companyName>seraphy@users.osdn.me</companyName>
+    <internalName>CharacterManaJ</internalName>
+    <originalFilename>charactermanaj.exe</originalFilename>
+  </versionInfo>
+</launch4jConfig>

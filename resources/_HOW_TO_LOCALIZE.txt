@@ -1,0 +1,18 @@
+ローカライズしたい言語ごとにリソースファイルをコピーしてください。
+Please copy the resource file for each language you want to localize.
+
+ファイル名の末尾は言語コードを指定する必要があります。
+The end of the file name must be specified language code.
+http://www.loc.gov/standards/iso639-2/php/English_list.php
+
+例 (Example)
+
+mainframe_ja.xml : 日本語 Japanese
+mainframe_en.xml : 英語 English
+mainframe_pt_BR  : ブラジル Brazil 
+mainframe_zh_TW  : 台湾 Chinese
+mainframe.xml    : デフォルト default
+
+* 作成したリソースファイルを募集しております。
+We are looking for a resource that you created.
+http://sourceforge.jp/forum/forum.php?forum_id=23932

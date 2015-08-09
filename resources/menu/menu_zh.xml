@@ -1,0 +1,208 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="menu.file.text">文件</entry>
+	<entry key="menu.file.mnemonic">F</entry>
+	<entry key="menu.file.mnemonicDisp"></entry>
+	<entry key="menu.file.ignoreMacOSX">false</entry>
+
+	<entry key="menu.edit.text">编辑</entry>
+	<entry key="menu.edit.mnemonic">E</entry>
+	<entry key="menu.edit.mnemonicDisp"></entry>
+	<entry key="menu.edit.ignoreMacOSX">false</entry>
+
+	<entry key="menu.favorite.text">预设</entry>
+	<entry key="menu.favorite.mnemonic">A</entry>
+	<entry key="menu.favorite.mnemonicDisp"></entry>
+	<entry key="menu.favorite.ignoreMacOSX">false</entry>
+
+	<entry key="menu.tool.text">工具</entry>
+	<entry key="menu.tool.mnemonic">T</entry>
+	<entry key="menu.tool.mnemonicDisp"></entry>
+	<entry key="menu.tool.ignoreMacOSX">false</entry>
+
+	<entry key="menu.help.text">帮助</entry>
+	<entry key="menu.help.mnemonic">H</entry>
+	<entry key="menu.help.mnemonicDisp"></entry>
+	<entry key="menu.help.ignoreMacOSX">false</entry>
+
+
+	<entry key="file.openProfile.text">打开配置</entry>
+	<entry key="file.openProfile.mnemonic">O</entry>
+	<entry key="file.openProfile.mnemonicDisp"></entry>
+	<entry key="file.openProfile.ignoreMacOSX">false</entry>
+	<entry key="file.openProfile.shortcut-key">? N</entry>
+
+	<entry key="file.savePicture.text">保存为图片</entry>
+	<entry key="file.savePicture.mnemonic">S</entry>
+	<entry key="file.savePicture.mnemonicDisp"></entry>
+	<entry key="file.savePicture.ignoreMacOSX">false</entry>
+	<entry key="file.savePicture.shortcut-key">? S</entry>
+
+	<entry key="file.ukagaka.text">伪春菜</entry>
+	<entry key="file.ukagaka.mnemonic">U</entry>
+	<entry key="file.ukagaka.mnemonicDisp"></entry>
+	<entry key="file.ukagaka.ignoreMacOSX">false</entry>
+
+	<entry key="file.saveAsUkagaka.text">保存为伪春菜图像</entry>
+	<entry key="file.saveAsUkagaka.mnemonic">S</entry>
+	<entry key="file.saveAsUkagaka.mnemonicDisp"></entry>
+	<entry key="file.saveAsUkagaka.ignoreMacOSX">false</entry>
+	<entry key="file.saveAsUkagaka.shortcut-key">? alt S</entry>
+
+	<entry key="file.convertUkagaka.text">转换</entry>
+	<entry key="file.convertUkagaka.mnemonic">C</entry>
+	<entry key="file.convertUkagaka.mnemonicDisp"></entry>
+	<entry key="file.convertUkagaka.ignoreMacOSX">false</entry>
+
+	<entry key="file.opendir.text">打开当前配置目录</entry>
+	<entry key="file.opendir.mnemonic">B</entry>
+	<entry key="file.opendir.mnemonicDisp"></entry>
+	<entry key="file.opendir.ignoreMacOSX">false</entry>
+	<entry key="file.opendir.shortcut-key">? D</entry>
+
+	<entry key="file.editprofile.text">编辑当前配置</entry>
+	<entry key="file.editprofile.mnemonic">E</entry>
+	<entry key="file.editprofile.mnemonicDisp"></entry>
+	<entry key="file.editprofile.ignoreMacOSX">false</entry>
+
+	<entry key="file.manageParts.text">管理部件</entry>
+	<entry key="file.manageParts.mnemonic">M</entry>
+	<entry key="file.manageParts.mnemonicDisp"></entry>
+	<entry key="file.manageParts.ignoreMacOSX">false</entry>
+	<entry key="file.manageParts.shortcut-key">? P</entry>
+
+	<entry key="file.import.text">导入</entry>
+	<entry key="file.import.mnemonic">I</entry>
+	<entry key="file.import.mnemonicDisp"></entry>
+	<entry key="file.import.ignoreMacOSX">false</entry>
+
+	<entry key="file.importMe.text">向当前配置导入</entry>
+	<entry key="file.importMe.mnemonic">I</entry>
+	<entry key="file.importMe.mnemonicDisp"></entry>
+	<entry key="file.importMe.ignoreMacOSX">false</entry>
+
+	<entry key="file.importNew.text">新建配置</entry>
+	<entry key="file.importNew.mnemonic">N</entry>
+	<entry key="file.importNew.mnemonicDisp"></entry>
+	<entry key="file.importNew.ignoreMacOSX">false</entry>
+
+	<entry key="file.export.text">导出</entry>
+	<entry key="file.export.mnemonic">E</entry>
+	<entry key="file.export.mnemonicDisp"></entry>
+	<entry key="file.export.ignoreMacOSX">false</entry>
+
+	<entry key="file.preferences.text">设置</entry>
+	<entry key="file.preferences.mnemonic">C</entry>
+	<entry key="file.preferences.mnemonicDisp"></entry>
+	<entry key="file.preferences.ignoreMacOSX">true</entry>
+
+	<entry key="file.closeProfile.text">关闭配置</entry>
+	<entry key="file.closeProfile.mnemonic">X</entry>
+	<entry key="file.closeProfile.mnemonicDisp"></entry>
+	<entry key="file.closeProfile.ignoreMacOSX">false</entry>
+	<entry key="file.closeProfile.shortcut-key">? W</entry>
+
+	<entry key="edit.search.text">查找</entry>
+	<entry key="edit.search.mnemonic">F</entry>
+	<entry key="edit.search.mnemonicDisp"></entry>
+	<entry key="edit.search.ignoreMacOSX">false</entry>
+	<entry key="edit.search.shortcut-key">? F</entry>
+
+	<entry key="edit.copy.text">复制到剪贴板</entry>
+	<entry key="edit.copy.mnemonic">C</entry>
+	<entry key="edit.copy.mnemonicDisp"></entry>
+	<entry key="edit.copy.ignoreMacOSX">false</entry>
+	<entry key="edit.copy.shortcut-key">control C</entry>
+	
+	<entry key="edit.flipHorizontal.text">水平翻转</entry>
+	<entry key="edit.flipHorizontal.mnemonic">H</entry>
+	<entry key="edit.flipHorizontal.mnemonicDisp"></entry>
+	<entry key="edit.flipHorizontal.ignoreMacOSX">false</entry>
+
+	<entry key="edit.resetcolor.text">重置颜色</entry>
+	<entry key="edit.resetcolor.mnemonic">R</entry>
+	<entry key="edit.resetcolor.mnemonicDisp"></entry>
+	<entry key="edit.resetcolor.ignoreMacOSX">false</entry>
+	<entry key="edit.resetcolor.shortcut-key">? R</entry>
+
+	<entry key="edit.setDefaultPicture.text">设置为例图</entry>
+	<entry key="edit.setDefaultPicture.mnemonic">P</entry>
+	<entry key="edit.setDefaultPicture.mnemonicDisp"></entry>
+	<entry key="edit.setDefaultPicture.ignoreMacOSX">false</entry>
+
+	<entry key="edit.information.text">信息</entry>
+	<entry key="edit.information.mnemonic">I</entry>
+	<entry key="edit.information.mnemonicDisp"></entry>
+	<entry key="edit.information.ignoreMacOSX">false</entry>
+	<entry key="edit.information.shortcut-key">? I</entry>
+
+	<entry key="edit.deselectall.text">全部取消</entry>
+	<entry key="edit.deselectall.ignoreMacOSX">false</entry>
+
+	<entry key="edit.deselectparts.text">所有项目均可取消</entry>
+	<entry key="edit.deselectparts.ignoreMacOSX">false</entry>
+
+	<entry key="edit.enableAutoShrink.text">自动缩放项目栏</entry>
+	<entry key="edit.enableAutoShrink.ignoreMacOSX">false</entry>
+	
+	<entry key="edit.enableZoomBox.text">缩放</entry>
+	<entry key="edit.enableZoomBox.mnemonic">Z</entry>
+	<entry key="edit.enableZoomBox.mnemonicDisp"></entry>
+	<entry key="edit.enableZoomBox.ignoreMacOSX">false</entry>
+
+	<entry key="edit.changeBgColor.text">背景色</entry>
+	<entry key="edit.changeBgColor.mnemonic">B</entry>
+	<entry key="edit.changeBgColor.mnemonicDisp"></entry>
+	<entry key="edit.changeBgColor.ignoreMacOSX">false</entry>
+
+	<entry key="edit.changeWallpaper.text">背景设置</entry>
+	<entry key="edit.changeWallpaper.mnemonic">W</entry>
+	<entry key="edit.changeWallpaper.mnemonicDisp"></entry>
+	<entry key="edit.changeWallpaper.ignoreMacOSX">false</entry>
+
+
+	<entry key="favorite.register.text">添加到预设</entry>
+	<entry key="favorite.register.mnemonic">A</entry>
+	<entry key="favorite.register.mnemonicDisp"></entry>
+	<entry key="favorite.register.ignoreMacOSX">false</entry>
+	<entry key="favorite.register.shortcut-key">? B</entry>
+
+	<entry key="favorite.manage.text">管理预设</entry>
+	<entry key="favorite.manage.mnemonic">M</entry>
+	<entry key="favorite.manage.mnemonicDisp"></entry>
+	<entry key="favorite.manage.ignoreMacOSX">false</entry>
+	<entry key="favorite.manage.shortcut-key">? M</entry>
+
+
+	<entry key="tool.random.text">随机生成</entry>
+	<entry key="tool.random.mnemonic">R</entry>
+	<entry key="tool.random.mnemonicDisp"></entry>
+	<entry key="tool.random.ignoreMacOSX">false</entry>
+
+
+	<entry key="help.help.text">帮助</entry>
+	<entry key="help.help.mnemonic">H</entry>
+	<entry key="help.help.mnemonicDisp"></entry>
+	<entry key="help.help.ignoreMacOSX">false</entry>
+
+	<entry key="help.bugreport.text">错误反馈(日)</entry>
+	<entry key="help.bugreport.mnemonic">R</entry>
+	<entry key="help.bugreport.mnemonicDisp"></entry>
+	<entry key="help.bugreport.ignoreMacOSX">false</entry>
+
+	<entry key="help.forum.text">论坛(日)</entry>
+	<entry key="help.forum.mnemonic">F</entry>
+	<entry key="help.forum.mnemonicDisp"></entry>
+	<entry key="help.bugreport.ignoreMacOSX">false</entry>
+
+	<entry key="help.about.text">关于</entry>
+	<entry key="help.about.mnemonic">A</entry>
+	<entry key="help.about.mnemonicDisp"></entry>
+	<entry key="help.about.ignoreMacOSX">true</entry>
+
+	<entry key="help.recommendations.text">相关链接</entry>
+	<entry key="help.recommendations.mnemonic"></entry>
+	<entry key="help.recommendations.mnemonicDisp"></entry>
+	<entry key="help.recommendations.ignoreMacOSX">false</entry>
+
+</properties>

@@ -1,0 +1,89 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="title.edit">プロファイルの編集</entry>
+	<entry key="title.new">プロファイルの作成</entry>
+	<entry key="button.ok.edit">更新</entry>
+	<entry key="button.ok.new">作成</entry>
+	<entry key="button.cancel">キャンセル</entry>
+	<entry key="button.openDir">フォルダを表示</entry>
+	<entry key="confirm.changestructre">構造が変更されます。よろしいですか?</entry>
+	<entry key="confirm.needchangerevision">構造が変更されます。リビジョンを更新しますか?</entry>
+	<entry key="id.caption">ID:</entry>
+	<entry key="id.caption.help"><![CDATA[<html>キャラクターセットごとにユニークな名前をつけます。英数字および記号のみ。<br>
+	たとえば、キャラクターなんとか機デフォルトパーツセット(Ver2)であれば「Default」とします。</html>]]></entry>
+	<entry key="rev.caption.help">カテゴリやレイヤーの構造が変るたびに違う識別子を割り当てます。英数字および記号のみ。</entry>
+	<entry key="rev.caption">Rev:</entry>
+	<entry key="docbase.caption">設定ファイル:</entry>
+	<entry key="name.caption">名前:</entry>
+	<entry key="image-width.caption">キャンバスの幅:</entry>
+	<entry key="image-height.caption">キャンバスの高さ:</entry>
+	<entry key="author.caption">作者:</entry>
+	<entry key="description.caption">説明:</entry>
+	<entry key="colorgroup.add.caption">追加</entry>
+	<entry key="colorgroup.delete.caption">削除</entry>
+	<entry key="warning.used-colorgroup">このカラーグループは使用中のため削除できません。</entry>
+	<entry key="colorgroup.moveup.caption">上へ</entry>
+	<entry key="colorgroup.movedown.caption">下へ</entry>
+	<entry key="categories.add.caption">追加</entry>
+	<entry key="categories.delete.caption">削除</entry>
+	<entry key="warning.used-category">このカテゴリは使用中のため削除できません。</entry>
+	<entry key="categories.moveup.caption">上へ</entry>
+	<entry key="categories.movedown.caption">下へ</entry>
+	<entry key="layers.add.caption">追加</entry>
+	<entry key="layers.delete.caption">削除</entry>
+	<entry key="layers.sort.caption">整列</entry>
+	<entry key="layers.moveup.caption">上へ</entry>
+	<entry key="layers.movedown.caption">下へ</entry>
+	<entry key="layers.watchdir">フォルダを監視し、パーツ画像の変更を検知できるようにする。</entry>
+	<entry key="panel.basicinfomation">基本</entry>
+	<entry key="panel.colorgroup">カラーグループ</entry>
+	<entry key="panel.categories">カテゴリ</entry>
+	<entry key="panel.layers">レイヤー</entry>
+	<entry key="confirm">確認</entry>
+	<entry key="confirm.close">編集をキャンセルしますか?</entry>
+
+	<entry key="colorgroup.column.colorgroupname">カラーグループ名</entry>
+
+	<entry key="categories.column.categoryname">カテゴリ名</entry>
+	<entry key="categories.column.multipleselectable">複数選択可</entry>
+	<entry key="categories.column.displayrowcount">表示行数</entry>
+	<entry key="categories.column.usedlayers">使用しているレイヤー</entry>
+	<entry key="categories.column.categoryname.width">100</entry>
+	<entry key="categories.column.multipleselectable.width">50</entry>
+	<entry key="categories.column.displayrowcount.width">50</entry>
+	<entry key="categories.column.usedlayers.width">300</entry>
+
+	<entry key="layers.column.layername">レイヤー名</entry>
+	<entry key="layers.column.category">カテゴリ</entry>
+	<entry key="layers.column.colorgroup">カラーグループ</entry>
+	<entry key="layers.column.order">重ね順</entry>
+	<entry key="layers.column.colorModel">カラーモデル</entry>
+	<entry key="layers.column.directory">フォルダ</entry>
+	<entry key="layers.column.layername.width">100</entry>
+	<entry key="layers.column.category.width">100</entry>
+	<entry key="layers.column.colorgroup.width">100</entry>
+	<entry key="layers.column.order.width">50</entry>
+	<entry key="layers.column.colorModel.width">100</entry>
+	<entry key="layers.column.directory.width">300</entry>
+
+	<entry key="panel.partssets">プリセット</entry>
+	<entry key="partssets.column.default">デフォルト</entry>
+	<entry key="partssets.column.preset">プリセット</entry>
+	<entry key="partssets.column.partssetname">パーツセット名</entry>
+	<entry key="partssets.column.usedpartsname">使用パーツ</entry>
+	<entry key="partssets.column.default.width">50</entry>
+	<entry key="partssets.column.preset.width">50</entry>
+	<entry key="partssets.column.partssetname.width">150</entry>
+	<entry key="partssets.column.usedpartsname.width">200</entry>
+	
+	<entry key="panel.recommendations">お勧めリンク</entry>
+	<entry key="recommendations.column.displayName">説明</entry>
+	<entry key="recommendations.column.url">URL</entry>
+	<entry key="recommendations.column.displayName.width">200</entry>
+	<entry key="recommendations.column.url.width">200</entry>
+	<entry key="recommendations.add.caption">追加</entry>
+	<entry key="recommendations.delete.caption">削除</entry>
+	<entry key="recommendations.moveup.caption">上へ</entry>
+	<entry key="recommendations.movedown.caption">下へ</entry>
+
+</properties>

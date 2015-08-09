@@ -1,0 +1,24 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="title">信息</entry>
+	<entry key="btnClose">关闭</entry>
+	<entry key="column.partsName">部件</entry>
+	<entry key="column.categoryName">分类</entry>
+	<entry key="column.layerName">图层</entry>
+	<entry key="column.layerOrder">排序</entry>
+	<entry key="column.imagesize">大小</entry>
+	<entry key="column.colortype">颜色模式</entry>
+	<entry key="column.imageName">图片路径</entry>
+	<entry key="column.editbtn">动作</entry>
+	<entry key="column.partsName.width">80</entry>
+	<entry key="column.categoryName.width">80</entry>
+	<entry key="column.layerName.width">80</entry>
+	<entry key="column.layerOrder.width">50</entry>
+	<entry key="column.layerOrder.imagesize.width">50</entry>
+	<entry key="column.layerOrder.colortype.width">50</entry>
+	<entry key="column.imageName.width">150</entry>
+	<entry key="column.editbtn.width">80</entry>
+	<entry key="popupmenu.copyPath">复制文件路径</entry>
+	<entry key="btn.edit.edit">编辑</entry>
+	<entry key="btn.edit.open">打开</entry>
+</properties>

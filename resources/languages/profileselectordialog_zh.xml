@@ -1,0 +1,56 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="windowWidth">500</entry>
+	<entry key="windowHeight">500</entry>
+	<entry key="title">选择配置</entry>
+	<entry key="profile.new">新建</entry>
+	<entry key="profile.copy">复制配置</entry>
+	<entry key="profile.edit">编辑</entry>
+	<entry key="profile.edit.readonly">View</entry>
+	<entry key="profile.remove">移除</entry>
+	<entry key="profile.browse">浏览..</entry>
+	<entry key="profile.import">导入</entry>
+	<entry key="profile.export">导出</entry>
+	<entry key="profile.template">创建缓存</entry>
+	<entry key="profileNew.chooseTemplate.title">选择一个人物数据缓存</entry>
+	<entry key="profileNew.chooseTemplate.combo.width">300</entry>
+	<entry key="description">描述</entry>
+	<entry key="profiles">配置</entry>
+	<entry key="sample-image">例图</entry>
+	<entry key="dividerLocation">300</entry>
+	<entry key="btn.select">打开</entry>
+	<entry key="btn.cancel">取消</entry>
+	<entry key="dropHere">在此填充</entry>
+	<entry key="nopicture">无图片</entry>
+	<entry key="samplepicture.cut">剪切</entry>
+	<entry key="samplepicture.paste">复制</entry>
+	<entry key="profile.remove.confirm">你确认要删除 {0}?</entry>
+	<entry key="profile.remove.force">完全删除</entry>
+	<entry key="confirm.remove">确认</entry>
+	<entry key="profile.remove.cannot">无法删除此配置</entry>
+	<entry key="profile.opend"> (已打开)</entry>
+	<entry key="profile.noteditable"> (无编辑)</entry>
+	<entry key="confirmUpdateProfile">选择配置</entry>
+	<entry key="importToUpdateProfile">向选择的配置导入</entry>
+	<entry key="importToCreateProfile">导入新的配置</entry>
+
+	<entry key="profile.column.name">名称</entry>
+	<entry key="profile.column.id">ID</entry>
+	<entry key="profile.column.revision">版本</entry>
+	<entry key="profile.column.canvasSize">大小</entry>
+	<entry key="profile.column.description">描述</entry>
+	<entry key="profile.column.author">作者</entry>
+	<entry key="profile.column.location">路径</entry>
+	<entry key="profile.column.name.width">200</entry>
+	<entry key="profile.column.id.width">100</entry>
+	<entry key="profile.column.revision.width">100</entry>
+	<entry key="profile.column.canvasSize.width">80</entry>
+	<entry key="profile.column.description.width">300</entry>
+	<entry key="profile.column.author.width">150</entry>
+	<entry key="profile.column.location.width">300</entry>
+
+	<entry key="inputTemplateName">缓存名称</entry>
+	<entry key="confirm">确认</entry>
+	<entry key="confirmOverwrite"><![CDATA[文件已存在
+是否覆盖?]]></entry>
+</properties>

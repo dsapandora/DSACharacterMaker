@@ -1,0 +1,11 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="manageFavorites">预设管理</entry>
+	<entry key="select">选择</entry>
+	<entry key="remove">删除</entry>
+	<entry key="rename">重命名</entry>
+	<entry key="close">关闭</entry>
+	<entry key="inputName">输入预设的名称</entry>
+	<entry key="favorite.remove.confirm">你确定要删除选择的预设么?</entry>
+	<entry key="confirm.remove">确认</entry>
+</properties>

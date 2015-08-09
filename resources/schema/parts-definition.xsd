@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema
+  targetNamespace="http://charactermanaj.sourceforge.jp/schema/charactermanaj-partsdef"
+  xmlns="http://charactermanaj.sourceforge.jp/schema/charactermanaj-partsdef"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xml="http://www.w3.org/XML/1998/namespace"
+  attributeFormDefault="qualified"
+  elementFormDefault="qualified">
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <xs:simpleType name="tokenNotEmpty">
+  	<xs:annotation>
+  		<xs:documentation xml:lang="ja">空文字を許可しないトークンの定義</xs:documentation>
+  	</xs:annotation>
+    <xs:restriction base="xs:token">
+        <xs:minLength value="1"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="parts-definition">
+    <xs:annotation>
+      <xs:documentation xml:lang="ja">パーツリストの定義</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="author" nillable="false" minOccurs="0" maxOccurs="unbounded">
+          <xs:annotation>
+            <xs:documentation xml:lang="ja">パーツの作者</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" nillable="false" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute ref="xml:lang" use="required" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="home-page" nillable="false" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute ref="xml:lang" use="required" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="download-url" nillable="false" minOccurs="0" maxOccurs="unbounded" type="xs:string">
+          <xs:annotation>
+            <xs:documentation xml:lang="ja">パーツのダウンロードURL</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element name="parts" nillable="false" minOccurs="0" maxOccurs="unbounded">
+          <xs:annotation>
+            <xs:documentation xml:lang="ja">パーツの定義</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="local-name" nillable="false" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                  <xs:documentation xml:lang="ja">パーツのローカライズ名</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="tokenNotEmpty">
+                      <xs:attribute ref="xml:lang" use="required" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="name" use="required" form="unqualified" type="tokenNotEmpty">
+              <xs:annotation>
+                <xs:documentation xml:lang="ja">パーツ名(ファイルのネームボディ)</xs:documentation>
+              </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="category" use="optional" form="unqualified" type="tokenNotEmpty">
+              <xs:annotation>
+                <xs:documentation xml:lang="ja">カテゴリ、省略時は任意のカテゴリ</xs:documentation>
+              </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="version" use="optional" form="unqualified" type="xs:double">
+              <xs:annotation>
+                <xs:documentation xml:lang="ja">パーツのバージョン</xs:documentation>
+              </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="lastModified" use="optional" form="unqualified" type="xs:dateTime">
+              <xs:annotation>
+                <xs:documentation xml:lang="ja">最終更新日時(代表)</xs:documentation>
+              </xs:annotation>
+            </xs:attribute>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+      <xs:attribute name="codeBase" use="optional" form="unqualified" type="xs:string">
+        <xs:annotation>
+          <xs:documentation xml:lang="ja">キャラクターデータディレクトリのURI</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

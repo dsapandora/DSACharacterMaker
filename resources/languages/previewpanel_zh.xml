@@ -1,0 +1,18 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="indicatorText"> 载入中...</entry>
+	<entry key="tooltip.save">保存图像</entry>
+	<entry key="tooltip.copy">复制到剪贴板</entry>
+	<entry key="tooltip.changeBgColor">更改背景</entry>
+	<entry key="tooltip.showInformation">显示信息</entry>
+	<entry key="tooltip.registerFavorites">增加到预设</entry>
+	<entry key="tooltip.flipHorizontal">翻转</entry>
+	
+	<entry key="tooltip.zoompanel.pinning">固定</entry>
+	<entry key="tooltip.zoompanel.checkalpha">检查透明通道</entry>
+	<entry key="tooltip.zoompanel.checkgrayscale">检查亮度</entry>
+	<entry key="tooltip.zoompanel.zoomfactor_slider">缩放</entry>
+	<entry key="tooltip.zoompanel.zoomfactor_combo">缩放</entry>
+	
+	<entry key="uiconstraint.scrollbar.width">30</entry>
+</properties>

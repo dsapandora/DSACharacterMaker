@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<parts-definition
+  xmlns="http://charactermanaj.sourceforge.jp/schema/charactermanaj-partsdef"
+  xmlns:xml="http://www.w3.org/XML/1998/namespace"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://charactermanaj.sourceforge.jp/schema/charactermanaj-partsdef parts-definition.xsd">
+  <author>
+    <name xml:lang="ja">緋龍華 麒麟</name>
+    <name xml:lang="en">K.Hmix 1st Edition</name>
+    <home-page xml:lang="en">http://khmix.sakura.ne.jp/</home-page>
+  </author>
+  <download-url>http://khmix.sakura.ne.jp/file/character_02.08.zip</download-url>
+  <parts name="インテーク" category="hair-front" version="1.0">
+    <local-name xml:lang="en">Intake</local-name>
+    <local-name xml:lang="ja">インテーク</local-name>
+  </parts>
+  <author>
+    <name xml:lang="ja">緋龍華 麒麟</name>
+    <name xml:lang="en">K.Hmix 1st Edition</name>
+    <home-page xml:lang="en">http://khmix.sakura.ne.jp/</home-page>
+  </author>
+  <parts name="ウェーブ" version="1.0">
+    <local-name xml:lang="en">Wave</local-name>
+    <local-name xml:lang="ja">ウェーブ</local-name>
+  </parts>
+  <parts name="お嬢様" version="1.0"/>
+</parts-definition>

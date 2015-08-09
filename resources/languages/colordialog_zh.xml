@@ -1,0 +1,30 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="colordialog.caption">颜色</entry>
+	<entry key="button.apply">应用</entry>
+	<entry key="button.reset">重置</entry>
+	<entry key="checkbox.applyAllItems">应用到所有项目</entry>
+	<entry key="group.replacergb.caption">RGB替换</entry>
+	<entry key="replacergb">替换</entry>
+	<entry key="bright">亮度</entry>
+	<entry key="contrast">对比度</entry>
+	<entry key="group.rgb.caption">RGB</entry>
+	<entry key="red">R</entry>
+	<entry key="green">G</entry>
+	<entry key="blue">B</entry>
+	<entry key="alpha">Alpha通道</entry>
+	<entry key="offset">偏移量</entry>
+	<entry key="factor">倍率</entry>
+	<entry key="gamma">Gamma修正</entry>
+	<entry key="colorModel.HSB.title">HSB + 对比度</entry>
+	<entry key="colorModel.HSY.title">HSY + 对比度</entry>
+	<entry key="colorModel.HSB.hue">色相</entry>
+	<entry key="colorModel.HSB.saturation">饱和度</entry>
+	<entry key="colorModel.HSB.brightness">亮度</entry>
+	<entry key="colorModel.HSY.hue">色相</entry>
+	<entry key="colorModel.HSY.saturation">饱和度</entry>
+	<entry key="colorModel.HSY.luminance">辉度</entry>
+	<entry key="colorgroup">颜色组</entry>
+	<entry key="group">组</entry>
+	<entry key="synchronized">同步</entry>
+</properties>

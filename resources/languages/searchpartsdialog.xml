@@ -1,0 +1,18 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="title">Search</entry>
+	<entry key="search.condition">Search Condition</entry>
+	<entry key="partsname">Parts Name:</entry>
+	<entry key="author">Author:</entry>
+	<entry key="partscategory">Category:</entry>
+	<entry key="clear">Clear</entry>
+	<entry key="results">Results</entry>
+	<entry key="select">Select</entry>
+	
+	<entry key="column.partsname">Parts</entry>
+	<entry key="column.category">Category</entry>
+	<entry key="column.author">Author</entry>
+	<entry key="column.partsname.width">100</entry>
+	<entry key="column.category.width">50</entry>
+	<entry key="column.author.width">80</entry>
+</properties>

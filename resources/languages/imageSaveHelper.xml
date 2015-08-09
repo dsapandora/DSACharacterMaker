@@ -1,0 +1,29 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+<entry key="confirm">Confirm</entry>
+<entry key="confirmOverwrite"><![CDATA[file already exists.
+Do you want to replace it?]]></entry>
+
+<entry key="ouputOption.caption">Output options</entry>
+
+<entry key="outputOption.jpeg.caption">JPEG</entry>
+<entry key="outputOption.jpeg.quality">Quality</entry>
+
+<entry key="outputOption.zoom.caption">Zoom</entry>
+<entry key="outputOption.zoom.factor">Factor</entry>
+<entry key="outputOption.zoom.renderingMode">Mode</entry>
+
+<entry key="outputOption.picture">Picture type</entry>
+<entry key="outputOption.picture.type">Type</entry>
+<entry key="outputOption.picture.forceBgColor">A background color is forced.</entry>
+
+<entry key="outputOption.zoomRenderingType.NONE">NONE</entry>
+<entry key="outputOption.zoomRenderingType.BILINER">BILINER</entry>
+<entry key="outputOption.zoomRenderingType.BICUBIC">BICUBIC</entry>
+
+<entry key="outputOption.pictureMode.NORMAL">Normal</entry>
+<entry key="outputOption.pictureMode.OPAQUE">Opaque</entry>
+<entry key="outputOption.pictureMode.GRAY">Gray</entry>
+<entry key="outputOption.pictureMode.ALPHA">Alpha</entry>
+
+</properties>

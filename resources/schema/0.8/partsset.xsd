@@ -1,0 +1,12 @@
+<xs:schema
+  targetNamespace="http://com.exmaple/charactermanaj"
+  xmlns="http://com.exmaple/charactermanaj"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xml="http://www.w3.org/XML/1998/namespace"
+  attributeFormDefault="qualified"
+  elementFormDefault="qualified">
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2001/xml.xsd"/>
+  <xs:include schemaLocation="character_inc.xsd"/>
+  <xs:element name="partssets" type="presetsType"/>
+</xs:schema>
+

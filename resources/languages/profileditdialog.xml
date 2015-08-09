@@ -1,0 +1,89 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<entry key="title.edit">Profile(Edit)</entry>
+	<entry key="title.new">Profile(New)</entry>
+	<entry key="button.ok.edit">Update</entry>
+	<entry key="button.ok.new">Create</entry>
+	<entry key="button.cancel">Cancel</entry>
+	<entry key="button.openDir">Show Directory</entry>
+	<entry key="confirm.changestructre">Are you sure you want to change the structure?</entry>
+	<entry key="confirm.needchangerevision">Structure is changed. Is revision updated?</entry>
+	<entry key="id.caption">ID:</entry>
+	<entry key="id.caption.help"><![CDATA[<html>The unique identifier to a character is specified here.<br>
+	For example, "default" is the standard profile of the “character-nantoka-ki”.</html>]]></entry>
+	<entry key="rev.caption.help">revision</entry>
+	<entry key="rev.caption">Rev:</entry>
+	<entry key="docbase.caption">Config:</entry>
+	<entry key="name.caption">Name:</entry>
+	<entry key="image-width.caption">Picture Width:</entry>
+	<entry key="image-height.caption">Picture Height:</entry>
+	<entry key="author.caption">Author:</entry>
+	<entry key="description.caption">Description:</entry>
+	<entry key="colorgroup.add.caption">Add</entry>
+	<entry key="colorgroup.delete.caption">Remove</entry>
+	<entry key="warning.used-colorgroup">Can not remove the color group because it is being used.</entry>
+	<entry key="colorgroup.moveup.caption">Up</entry>
+	<entry key="colorgroup.movedown.caption">Down</entry>
+	<entry key="categories.add.caption">Add</entry>
+	<entry key="categories.delete.caption">Remove</entry>
+	<entry key="warning.used-category">Can not remove the category because it is being used.</entry>
+	<entry key="categories.moveup.caption">Up</entry>
+	<entry key="categories.movedown.caption">Down</entry>
+	<entry key="layers.add.caption">Add</entry>
+	<entry key="layers.delete.caption">Remove</entry>
+	<entry key="layers.sort.caption">Sort</entry>
+	<entry key="layers.moveup.caption">Up</entry>
+	<entry key="layers.movedown.caption">Down</entry>
+	<entry key="layers.watchdir">Watch directories</entry>
+	<entry key="panel.basicinfomation">Basic</entry>
+	<entry key="panel.colorgroup">Color Group</entry>
+	<entry key="panel.categories">Categories</entry>
+	<entry key="panel.layers">Layers</entry>
+	<entry key="confirm">Confirm</entry>
+	<entry key="confirm.close">Are you sure you want to cancel?</entry>
+
+	<entry key="colorgroup.column.colorgroupname">Color Group Name</entry>
+
+	<entry key="categories.column.categoryname">Category Name</entry>
+	<entry key="categories.column.multipleselectable">Multiple selectable</entry>
+	<entry key="categories.column.displayrowcount">Display Row Count</entry>
+	<entry key="categories.column.usedlayers">Used Layers</entry>
+	<entry key="categories.column.categoryname.width">100</entry>
+	<entry key="categories.column.multipleselectable.width">50</entry>
+	<entry key="categories.column.displayrowcount.width">50</entry>
+	<entry key="categories.column.usedlayers.width">300</entry>
+
+	<entry key="layers.column.layername">Layer Name</entry>
+	<entry key="layers.column.category">Category</entry>
+	<entry key="layers.column.colorgroup">Color Group</entry>
+	<entry key="layers.column.order">Order</entry>
+	<entry key="layers.column.colorModel">Color Model</entry>
+	<entry key="layers.column.directory">Directory</entry>
+	<entry key="layers.column.layername.width">100</entry>
+	<entry key="layers.column.category.width">100</entry>
+	<entry key="layers.column.colorgroup.width">100</entry>
+	<entry key="layers.column.order.width">50</entry>
+	<entry key="layers.column.colorModel.width">100</entry>
+	<entry key="layers.column.directory.width">300</entry>
+
+	<entry key="panel.partssets">Presets</entry>
+	<entry key="partssets.column.default">Default</entry>
+	<entry key="partssets.column.preset">Preset</entry>
+	<entry key="partssets.column.partssetname">Name</entry>
+	<entry key="partssets.column.usedpartsname">Parts</entry>
+	<entry key="partssets.column.default.width">50</entry>
+	<entry key="partssets.column.preset.width">50</entry>
+	<entry key="partssets.column.partssetname.width">150</entry>
+	<entry key="partssets.column.usedpartsname.width">200</entry>
+
+	<entry key="panel.recommendations">Recommendations</entry>
+	<entry key="recommendations.column.displayName">description</entry>
+	<entry key="recommendations.column.url">URL</entry>
+	<entry key="recommendations.column.displayName.width">200</entry>
+	<entry key="recommendations.column.url.width">200</entry>
+	<entry key="recommendations.add.caption">Add</entry>
+	<entry key="recommendations.delete.caption">Remove</entry>
+	<entry key="recommendations.moveup.caption">Up</entry>
+	<entry key="recommendations.movedown.caption">Down</entry>
+
+</properties>
